@@ -166,7 +166,7 @@ Question-Answering-System/
 Requires Python 3.10+.
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/Question-Answering-System.git
+git clone https://github.com/pujithavarma17/Question-Answering-System.git
 cd Question-Answering-System
 
 python -m venv .venv
