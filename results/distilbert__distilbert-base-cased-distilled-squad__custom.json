@@ -1,0 +1,562 @@
+{
+  "summary": {
+    "model": "distilbert/distilbert-base-cased-distilled-squad",
+    "dataset": "custom",
+    "exact_match": 70.0,
+    "f1": 73.61,
+    "count": 60,
+    "has_answer_exact_match": 87.5,
+    "has_answer_f1": 92.01,
+    "has_answer_count": 48,
+    "no_answer_exact_match": 0.0,
+    "no_answer_f1": 0.0,
+    "no_answer_count": 12,
+    "seconds_per_question": 0.248
+  },
+  "details": [
+    {
+      "question": "What is continuously checking for an event called?",
+      "prediction": "busy waiting",
+      "answers": [
+        "busy waiting"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What does busy waiting waste?",
+      "prediction": "CPU time",
+      "answers": [
+        "CPU time",
+        "CPU time and reduces system efficiency"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Which operating system was first released in 1991?",
+      "prediction": "operating system",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Which state means the process is waiting for an event or resource?",
+      "prediction": "SLEEPING",
+      "answers": [
+        "SLEEPING"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "In which state is a process ready to execute but waiting for CPU time?",
+      "prediction": "RUNNABLE",
+      "answers": [
+        "RUNNABLE"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What does the RUNNING state mean?",
+      "prediction": "The process is currently executing on the CPU",
+      "answers": [
+        "The process is currently executing on the CPU",
+        "currently executing on the CPU"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "How many CPUs does xv6 support?",
+      "prediction": "xv6 operating system manages processes using different states",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What identifies the event or resource on which a process is waiting?",
+      "prediction": "A channel",
+      "answers": [
+        "A channel",
+        "channel"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What do locks help prevent?",
+      "prediction": "race conditions and lost wakeups",
+      "answers": [
+        "race conditions and lost wakeups"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What does the wakeup mechanism do to matching sleeping processes?",
+      "prediction": "makes them runnable",
+      "answers": [
+        "makes them runnable",
+        "identifies matching sleeping processes and makes them runnable"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Which command was used to launch the kernel?",
+      "prediction": "make qemu",
+      "answers": [
+        "make qemu",
+        "the make qemu command"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What was used to run the xv6 kernel in a virtual machine?",
+      "prediction": "QEMU",
+      "answers": [
+        "QEMU"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Which message confirmed that the shell had started?",
+      "prediction": "sh",
+      "answers": [
+        "init: starting sh"
+      ],
+      "exact_match": 0,
+      "f1": 0.5
+    },
+    {
+      "question": "How long did the kernel take to boot?",
+      "prediction": "The kernel was launched using the make qemu command",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Which function reads data from the pipe buffer?",
+      "prediction": "piperead",
+      "answers": [
+        "The piperead() function",
+        "piperead()"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "In which file is the pipe implementation present?",
+      "prediction": "kernel/pipe.c",
+      "answers": [
+        "kernel/pipe.c"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What does pipewrite() call after writing data?",
+      "prediction": "wakeup",
+      "answers": [
+        "wakeup(&pi->nread)"
+      ],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What is the size of the pipe buffer in bytes?",
+      "prediction": "kernel/pipe.c.",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "When does a lost wakeup occur?",
+      "prediction": "when a process misses a wakeup notification",
+      "answers": [
+        "when a process misses a wakeup notification",
+        "when a process misses a wakeup notification because the condition checking and transition to waiting are not coordinated correctly"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What helps coordinate access to shared process information in xv6?",
+      "prediction": "locks",
+      "answers": [
+        "locks"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "How long is the Bachelor of Technology program?",
+      "prediction": "four-year",
+      "answers": [
+        "four-year",
+        "four"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Which entrance test is used for admission?",
+      "prediction": "State Engineering Entrance Test",
+      "answers": [
+        "the State Engineering Entrance Test",
+        "State Engineering Entrance Test"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What is the minimum mathematics score required?",
+      "prediction": "60 percent",
+      "answers": [
+        "at least 60 percent",
+        "60 percent"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "When is the application deadline for the 2026 intake?",
+      "prediction": "15 June",
+      "answers": [
+        "15 June"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "How many seats are reserved for scholarship students?",
+      "prediction": "30",
+      "answers": [
+        "30"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What is the annual tuition fee?",
+      "prediction": "120 seats",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What do plants use to make food during photosynthesis?",
+      "prediction": "sunlight",
+      "answers": [
+        "sunlight",
+        "carbon dioxide and water"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "In which organelles does photosynthesis take place?",
+      "prediction": "chloroplasts",
+      "answers": [
+        "chloroplasts"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What is the green pigment called?",
+      "prediction": "chlorophyll",
+      "answers": [
+        "chlorophyll"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What gas is released as a by-product?",
+      "prediction": "Oxygen",
+      "answers": [
+        "Oxygen"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Who discovered photosynthesis?",
+      "prediction": "green",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Where will the semester examination be held?",
+      "prediction": "Main Block",
+      "answers": [
+        "the Main Block",
+        "Main Block"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What must students carry to every exam?",
+      "prediction": "hall ticket and college ID card",
+      "answers": [
+        "their hall ticket and college ID card",
+        "hall ticket and college ID card"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "For which papers are calculators allowed?",
+      "prediction": "engineering mathematics and physics",
+      "answers": [
+        "engineering mathematics and physics papers",
+        "engineering mathematics and physics"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Where will results be published?",
+      "prediction": "on the student portal",
+      "answers": [
+        "on the student portal",
+        "the student portal"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What is the passing mark for each paper?",
+      "prediction": "Students must carry their hall ticket and college ID card",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Who created Python?",
+      "prediction": "Guido van Rossum",
+      "answers": [
+        "Guido van Rossum"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "When was Python first released?",
+      "prediction": "1991",
+      "answers": [
+        "1991"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What does Python use to define code blocks?",
+      "prediction": "indentation",
+      "answers": [
+        "indentation"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What inspired the name Python?",
+      "prediction": "Monty Python",
+      "answers": [
+        "the British comedy group Monty Python",
+        "Monty Python"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What is the latest version of Python?",
+      "prediction": "Monty Python",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Within how many days can orders be returned?",
+      "prediction": "30",
+      "answers": [
+        "30 days",
+        "within 30 days of delivery"
+      ],
+      "exact_match": 0,
+      "f1": 0.667
+    },
+    {
+      "question": "What condition must returned items be in?",
+      "prediction": "unused",
+      "answers": [
+        "unused and in their original packaging",
+        "unused"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "How long does it take for a refund to be credited?",
+      "prediction": "5 to 7 business days",
+      "answers": [
+        "5 to 7 business days",
+        "within 5 to 7 business days"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Can opened electronics be refunded?",
+      "prediction": "not refunded",
+      "answers": [
+        "can only be exchanged, not refunded",
+        "only be exchanged"
+      ],
+      "exact_match": 0,
+      "f1": 0.5
+    },
+    {
+      "question": "Does ShopEasy deliver internationally?",
+      "prediction": "Orders placed on ShopEasy can be returned within 30 days of delivery for a full refund",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What should I tap to reset my password?",
+      "prediction": "Forgot Password",
+      "answers": [
+        "Forgot Password"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "How long is the verification code valid?",
+      "prediction": "10 minutes",
+      "answers": [
+        "10 minutes"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Where should I check if I do not receive the email?",
+      "prediction": "in-app Help Center",
+      "answers": [
+        "your spam folder",
+        "spam folder"
+      ],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What is the support phone number?",
+      "prediction": "registered email address",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "How long does standard delivery take?",
+      "prediction": "3 to 5 business days",
+      "answers": [
+        "3 to 5 business days"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Above what order value is standard delivery free?",
+      "prediction": "499 rupees",
+      "answers": [
+        "499 rupees",
+        "above 499 rupees"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "How much does express delivery cost?",
+      "prediction": "99 rupees",
+      "answers": [
+        "99 rupees",
+        "an additional charge of 99 rupees"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Where can customers track their shipment?",
+      "prediction": "from the Orders page",
+      "answers": [
+        "from the Orders page",
+        "the Orders page",
+        "Orders page"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Which courier company delivers the orders?",
+      "prediction": "Express",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What is the battery life of the NovaBand?",
+      "prediction": "up to 10 days",
+      "answers": [
+        "up to 10 days",
+        "10 days"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "How long does the NovaBand take to fully charge?",
+      "prediction": "2 hours",
+      "answers": [
+        "about 2 hours",
+        "2 hours"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Up to what depth is the NovaBand water resistant?",
+      "prediction": "50 metres",
+      "answers": [
+        "50 metres",
+        "up to 50 metres"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What does the warranty not cover?",
+      "prediction": "hardware defects but not accidental damage",
+      "answers": [
+        "accidental damage"
+      ],
+      "exact_match": 0,
+      "f1": 0.5
+    },
+    {
+      "question": "What is the price of the NovaBand?",
+      "prediction": "50 metres",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    }
+  ]
+}

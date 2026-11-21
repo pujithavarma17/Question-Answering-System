@@ -1,0 +1,18 @@
+# Exact versions this project was built and tested with.
+# (Newer transformers versions removed the "question-answering" pipeline.)
+
+# CPU-only PyTorch (much smaller download; enough for running the app)
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.14.1
+
+transformers==5.2.0
+sentence-transformers==6.3.0
+scikit-learn==1.9.1
+streamlit==1.66.0
+pypdf==7.1.0
+datasets==5.2.0
+accelerate==1.16.0
+tqdm==4.70.1
+
+# OCR for scanned pages / slide screenshots inside PDFs
+rapidocr_onnxruntime==1.2.3

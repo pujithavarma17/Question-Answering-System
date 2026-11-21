@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+pytest-cache-files-*/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large model files (upload models to the Hugging Face Hub instead)
+models/
+checkpoints/
+
+# Personal notes (not uploaded)
+INTERVIEW_NOTES.md
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+project_for_colab.zip

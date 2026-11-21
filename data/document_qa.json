@@ -1,0 +1,26 @@
+{
+  "description": "Questions about a full document. Used to evaluate the complete system (cleaning + chunking + retrieval + reader), exactly as the web app runs it. Empty answers list = not answerable from the document.",
+  "document": "documents/xv6_sleep_wakeup.txt",
+  "questions": [
+    {"question": "What is the subject code?", "answers": ["22CSC15N"]},
+    {"question": "What is the case study number?", "answers": ["10", "CASE STUDY 10"]},
+    {"question": "What is continuously checking for an event known as?", "answers": ["busy waiting"]},
+    {"question": "In which file are sleep and wakeup implemented?", "answers": ["kernel/proc.c"]},
+    {"question": "What does the wakeup() function change the state of a matching sleeping process to?", "answers": ["RUNNABLE"]},
+    {"question": "What does a channel identify?", "answers": ["the event or resource on which a process is waiting", "event or resource"]},
+    {"question": "What does sleep() call after setting the state to SLEEPING?", "answers": ["sched()"]},
+    {"question": "Which command was used to launch the kernel?", "answers": ["make qemu", "the make qemu command"]},
+    {"question": "Which emulator was used to run the xv6 kernel?", "answers": ["QEMU"]},
+    {"question": "Through what was Ubuntu used?", "answers": ["WSL2"]},
+    {"question": "Which command was entered after the shell started?", "answers": ["cat", "the cat command"]},
+    {"question": "Which file contains the pipe implementation?", "answers": ["kernel/pipe.c"]},
+    {"question": "Which function reads data from the pipe buffer?", "answers": ["piperead()", "The piperead() function"]},
+    {"question": "What does pipewrite() call to notify processes waiting for data?", "answers": ["wakeup(&pi->nread)"]},
+    {"question": "Which command demonstrates pipe communication in xv6?", "answers": ["cat | cat", "The command cat | cat"]},
+    {"question": "When does a lost wakeup occur?", "answers": ["when a process misses a wakeup notification", "when a process misses a wakeup notification because the condition checking and transition to waiting are not coordinated correctly"]},
+    {"question": "What does the scheduler do with a runnable process?", "answers": ["selects the runnable process for execution", "select it for execution", "selects"]},
+    {"question": "Who is the head of the department?", "answers": []},
+    {"question": "How much faster is sleep and wakeup than busy waiting in milliseconds?", "answers": []},
+    {"question": "What is the capital of France?", "answers": []}
+  ]
+}

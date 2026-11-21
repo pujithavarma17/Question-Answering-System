@@ -1,0 +1,4174 @@
+{
+  "summary": {
+    "model": "distilbert/distilbert-base-cased-distilled-squad",
+    "dataset": "squad",
+    "exact_match": 37.2,
+    "f1": 40.69,
+    "count": 500,
+    "has_answer_exact_match": 77.18,
+    "has_answer_f1": 84.43,
+    "has_answer_count": 241,
+    "no_answer_exact_match": 0.0,
+    "no_answer_f1": 0.0,
+    "no_answer_count": 259,
+    "seconds_per_question": 0.35
+  },
+  "details": [
+    {
+      "question": "Where did Marin build first fort?",
+      "prediction": "Fort Presque Isle",
+      "answers": [
+        "Fort Presque Isle",
+        "Fort Presque Isle (near present-day Erie, Pennsylvania",
+        "near present-day Erie, Pennsylvania"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What increases or decreases in response to static friction?",
+      "prediction": "increases or decreases",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What would Henry David Thoreau quote to audiences in India?",
+      "prediction": "Masque of Anarchy",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What revolution was fought in the 1899's?",
+      "prediction": "French Revolution",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "How are the rates of social goods in countries with lower inequality?",
+      "prediction": "life expectancy by country, educational performance, trust among strangers, women's status, social mobility, even numbers of patents issued",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What is held inside the formal legal ownership registration system in many developing countries?",
+      "prediction": "land and housing",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "In what year were there 5751 Filipinos in Jacksonville",
+      "prediction": "2010",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What changes the way a mineral is deposited?",
+      "prediction": "heat and pressure",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "The region spans starting at islands found in which body of water?",
+      "prediction": "Pacific Ocean",
+      "answers": [
+        "Pacific Ocean"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What was done to counteract the overpopulation of mnemiopsis in The Black Sea?",
+      "prediction": "over-fishing and long-term environmental changes",
+      "answers": [
+        "accidental introduction of Beroe",
+        "introduction of Beroe"
+      ],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Of what form do Euler primes take?",
+      "prediction": "2p \u2212 1",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "The Los Angeles Angels of Anaheim are from which sport?",
+      "prediction": "MLB",
+      "answers": [
+        "MLB"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What seminal paper was written by Juris Hartmanis and Richard Stearns in 1975?",
+      "prediction": "On the Computational Complexity of Algorithms",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What NLH teams are from Southern California?",
+      "prediction": "Los Angeles Rams, San Diego Chargers",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "The legislative body, the Council, are made up of what type of individuals?",
+      "prediction": "different ministers of the member states",
+      "answers": [
+        "different ministers of the member states",
+        "ministers"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What does the Zach\u0119ta National Gallery of Art organize exhibitions of art from?",
+      "prediction": "Polish and international artists",
+      "answers": [
+        "Polish and international artists",
+        "Polish and international artists a",
+        "modern art by Polish and international artists"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What conviction did many Poles have regarding how the Varsovians thought of themselves?",
+      "prediction": "better only because they lived in the capital",
+      "answers": [
+        "as better",
+        "better",
+        "thought of themselves as better"
+      ],
+      "exact_match": 0,
+      "f1": 0.25
+    },
+    {
+      "question": "How many modern types of algorithm tests for general numbers n are there?",
+      "prediction": "two",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What is restrained with a lever in the top of a driver?",
+      "prediction": "plug valve",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What type of space in Warsaw are the Botanic Garden and University Library garden?",
+      "prediction": "green spaces",
+      "answers": [
+        "green"
+      ],
+      "exact_match": 0,
+      "f1": 0.667
+    },
+    {
+      "question": "What are pharmacists forbidden to do?",
+      "prediction": "supply scheduled pharmaceuticals to the public",
+      "answers": [
+        "form business partnerships with physicians",
+        "form business partnerships with physicians or give them \"kickback\" payments",
+        "pharmacists cannot form business partnerships with physicians or give them \"kickback\" payments"
+      ],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Where did Fresno residents move to during the flooding?",
+      "prediction": "Millerton",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Which parts of the Earth are included in the lithosphere? ",
+      "prediction": "the crust and rigid uppermost portion of the upper mantle",
+      "answers": [
+        "crust and rigid uppermost portion of the upper mantle",
+        "the crust and rigid uppermost portion of the upper mantle"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": " what do conquering people take away from native populations?",
+      "prediction": "land",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Which type of rebellions are common in Scottish Parliament?",
+      "prediction": "backbench",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Where does the name Rhine derive from? ",
+      "prediction": "Gaulish name R\u0113nos",
+      "answers": [
+        "Gaulish name R\u0113nos",
+        "R\u0113nos",
+        "the Gaulish name R\u0113nos"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "The production of what signalling molecules is regulated by the immune system?",
+      "prediction": "hormones",
+      "answers": [
+        "hormones"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "How many people may have lived in the Amazon region during AD 1500?",
+      "prediction": "5 million",
+      "answers": [
+        "5 million"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What are MPs unable to vote upon?",
+      "prediction": "domestic legislation of the Scottish Parliament",
+      "answers": [
+        "domestic legislation of the Scottish Parliament",
+        "domestic legislation of the Scottish Parliament."
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "When was there a sharp rise in nationalism in Scotland?",
+      "prediction": "late 1960s",
+      "answers": [
+        "late 1960s",
+        "the late 1960s"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What wasn't the goal of Braddock's expedition?",
+      "prediction": "to dislodge the French",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "How man people gather along the banks of the Vistula for the Wianki festival?",
+      "prediction": "thousands",
+      "answers": [
+        "thousands"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What makes up 11.6% of Jacksonville?",
+      "prediction": "water",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "How does inequality prevent growth?",
+      "prediction": "limiting aggregate demand",
+      "answers": [
+        "by limiting aggregate demand",
+        "limiting aggregate demand"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Who is Kearney Boulevard named after?",
+      "prediction": "M. Theo Kearney",
+      "answers": [
+        "M. Theo Kearney"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What present day county is New Rochelle in?",
+      "prediction": "Westchester",
+      "answers": [
+        "Westchester"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What year were citizens or corporations said to have been able to bring claims against other non state parties?",
+      "prediction": "1986",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What should be avoided when talking to authorities?",
+      "prediction": "harmful",
+      "answers": [
+        "grant a consent search of his property,",
+        "responding to investigators' questions",
+        "suspect's talking to criminal investigators",
+        "talking to criminal investigators"
+      ],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What includes all subjects which are not stated in Schedule 6 to the Scotland Act?",
+      "prediction": "specific devolved matters",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What alumni member also write the bestseller Before I Fall?",
+      "prediction": "Lauren Oliver",
+      "answers": [
+        "Lauren Oliver"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What does the TEU not do?",
+      "prediction": "rule on their validity",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "In an ideal moral society, what would all citizens be free from?",
+      "prediction": "force",
+      "answers": [
+        "force"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "How did the black death make it to the Mediterranean and Europe?",
+      "prediction": "Spreading throughout the Mediterranean and Europe, the Black Death is estimated to have killed 30\u201360%",
+      "answers": [
+        "Silk Road",
+        "merchant ships",
+        "merchant ships."
+      ],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What is course content funding subject to?",
+      "prediction": "charter status",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "When was Europe's last major epidemic?",
+      "prediction": "1720",
+      "answers": [
+        "1720",
+        "1720 in Marseille."
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What kind of sediment particles are there?",
+      "prediction": "swirling",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "How many books are endorsed by the American Library Association?",
+      "prediction": "18 million",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What pushes businesses to decrease pressures on workers?",
+      "prediction": "substitution of capital equipment",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "When did the North American French and Indian War end?",
+      "prediction": "10 February 1763",
+      "answers": [
+        "10 February 1763",
+        "signing of the Treaty of Paris on 10 February 1763"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "In what year did the Black Death reach the Mediterranean?",
+      "prediction": "1343",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What usually takes place on location for an unknown client?",
+      "prediction": "construction",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What major adjust was made to the treaties in 1960?",
+      "prediction": "Minor amendments",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What needs to be made to ensure poorer members of society can participate in economic growth?",
+      "prediction": "special efforts",
+      "answers": [
+        "special efforts"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Who was pioneer and studied specific complexity measure in 1948?",
+      "prediction": "Boris Trakhtenbrot",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What company was not concerned about retaining new rights?",
+      "prediction": "ITV",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What is the theory of evolution based on?",
+      "prediction": "principles laid out by William Smith almost a hundred years before the publication of Charles Darwin's theory of evolution",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "How many billionaires are now living in Cambridge?",
+      "prediction": "62",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What wasn't the ratio of British settlers to French?",
+      "prediction": "20 to 1",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What was the South American portion of War of Austrian Succession?",
+      "prediction": "Frontiers from between Nova Scotia and Acadia in the north, to the Ohio Country",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "When did these rebellions take place?",
+      "prediction": "between 1621 and 1629",
+      "answers": [
+        "between 1621 and 1629"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What minor amount of liquid oxygen was produced by early French experimenters?",
+      "prediction": "a few drops",
+      "answers": [
+        "Only a few drops",
+        "a few drops",
+        "few drops"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What is the name of another algorithm useful for conveniently testing the primality of large numbers? ",
+      "prediction": "Algorithms",
+      "answers": [
+        "AKS primality test",
+        "the AKS primality test"
+      ],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Where was the famous artist Tamara de Maria born?",
+      "prediction": "Warsaw",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What did Neoclassical economics view the inequality in the distribution of income as being from?",
+      "prediction": "differences in value added by labor, capital and land",
+      "answers": [
+        "differences in value added by labor, capital and land"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": " What was Kublai Khan's opposition to Ogedei Khan?",
+      "prediction": "Kublai built schools for Confucian scholars, issued paper money, revived Chinese rituals, and endorsed policies that stimulated agricultural and commercial growth",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What stalled the development of houses?",
+      "prediction": "Fresno Traction Company",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What function does ozone perform for the planet?",
+      "prediction": "protective radiation shield",
+      "answers": [
+        "a protective radiation shield",
+        "protective radiation shield",
+        "radiation shield"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What do professional athletes seek to boost from breathing oxygen?",
+      "prediction": "oxygen masks",
+      "answers": [
+        "a \"boost\" in performance",
+        "performance"
+      ],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What document formed the Parliament of Victoria?",
+      "prediction": "Victoria Constitution Act 1855",
+      "answers": [
+        "Victoria Constitution Act 185",
+        "Victoria Constitution Act 1855",
+        "the Victoria Constitution Act 1855"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "in 1932 what was the Rhine measurement changed to?",
+      "prediction": "1,320 kilometres (820 miles)",
+      "answers": [
+        "1,320 kilometres",
+        "1,320 kilometres (820 miles)"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Which countries did not agree upon the European Coal and Steel Community agreement?",
+      "prediction": "France, Italy, Belgium, the Netherlands, Luxembourg and Germany",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What did LeGrande write about grammatical niceties?",
+      "prediction": "semantical problems",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What does coastal beriods use as teeth?",
+      "prediction": "huge mouths armed with groups of large, stiffened cilia",
+      "answers": [
+        "groups of large, stiffened cilia",
+        "stiffened cilia"
+      ],
+      "exact_match": 0,
+      "f1": 0.714
+    },
+    {
+      "question": "What happens when tyrosinase is expressed at low levels?",
+      "prediction": "transforms certain skin cells (e.g. melanocytes) into tumors called melanomas",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Who went to Fort Dusquesne in July 1755?",
+      "prediction": "Braddock",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What month, every four years, are the ordinary general elections held on?",
+      "prediction": "May",
+      "answers": [
+        "May"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What experiences acceleration when external force is applied to a system?",
+      "prediction": "the center of mass",
+      "answers": [
+        "center of mass",
+        "the center of mass"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "In early Pleistocene, what direction did the Rhine flow?",
+      "prediction": "northwest",
+      "answers": [
+        "northwest"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What product was notably shipped in vessels equipped with double and triple replacement engines?",
+      "prediction": "coal",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "How does The Tuition Fee Suppliment help high school students?",
+      "prediction": "geared to students enrolled in priority courses in post-secondary and non-degree programmes",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Where were French Catholics concentrated in France?",
+      "prediction": "southern and central parts of France",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What is consumed in both combustion and respiration?",
+      "prediction": "nitroaereus",
+      "answers": [
+        "nitroaereus"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Which conjecture holds that every odd integer n greater than 2 can be expressed as a sum of two primes?",
+      "prediction": "Goldbach's conjecture",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Which machine allows the machine to have multiple possible past actions from a given state?",
+      "prediction": "non-deterministic Turing machine",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What movements pursued a more radical direction?",
+      "prediction": "Fringe or splinter movements",
+      "answers": [
+        "Fringe",
+        "Fringe or splinter",
+        "Fringe or splinter movements"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Completing Q with respect to what will produce the field of real numbers?",
+      "prediction": "the absolute value",
+      "answers": [
+        "absolute value",
+        "the absolute value"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What was not central to European development since the Treaty of Rome 1957?",
+      "prediction": "free movement and trade",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What is AlO?",
+      "prediction": "aluminium",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Apart from its mathematics and postgraduate schools, what else doe the university run?",
+      "prediction": "academic institutions and programs",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Who discovered that electric and magnetic fields could be \"self-aware\"",
+      "prediction": "Maxwell",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "How many Huguenots were killed altogether in France?",
+      "prediction": "thousands",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Which plateau is the left part of Vistula on?",
+      "prediction": "moraine plateau",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "How many total acres is Woodward Park?",
+      "prediction": "235",
+      "answers": [
+        "300",
+        "300 acres"
+      ],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "X.25 and X.121 allowed what to happen?",
+      "prediction": "interconnection of national X.25 networks",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What Shakespeare Scholar is a faculty member at Harvard?",
+      "prediction": "Stephen Greenblatt",
+      "answers": [
+        "Stephen Greenblatt"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "A formal design team may be assembled to do what?",
+      "prediction": "plan the physical proceedings",
+      "answers": [
+        "plan the physical proceedings, and to integrate those proceedings with the other parts"
+      ],
+      "exact_match": 0,
+      "f1": 0.429
+    },
+    {
+      "question": "What is the first major bend in the Rhine called?",
+      "prediction": "Rhine knee",
+      "answers": [
+        "Rhine knee"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "French troops put down the Camisard uprisings between what years?",
+      "prediction": "1702 and 1709",
+      "answers": [
+        "1702 and 1709"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What is the mace displayed in?",
+      "prediction": "a glass case suspended from the lid",
+      "answers": [
+        "a glass case",
+        "a glass case suspended from the lid",
+        "glass case"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Finding what helps to determine if a fault is a normal fault or a thrust fault? ",
+      "prediction": "key bed",
+      "answers": [
+        "key bed",
+        "the key bed"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "How much did they say it was fair to raise the prices? ",
+      "prediction": "ten times more",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "The cities of Los Angeles and San Diego are a part of which state?",
+      "prediction": "southern California",
+      "answers": [
+        "California"
+      ],
+      "exact_match": 0,
+      "f1": 0.667
+    },
+    {
+      "question": "In what country is Constantinople?",
+      "prediction": "China",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What type of number theory utilizes and studies prime ideals?",
+      "prediction": "algebraic number theory",
+      "answers": [
+        "algebraic",
+        "algebraic number theory"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What position was Walter Camp on Harvard's football team?",
+      "prediction": "captain",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": " When was Mongke Khan born?",
+      "prediction": "1259",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Which conjecture holds that for any positive integer n, there is an infinite amount of pairs of consecutive primes differing by 2n?",
+      "prediction": "Polignac's conjecture",
+      "answers": [
+        "Polignac's",
+        "Polignac's conjecture"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Imperialism is most often associated with which sovereignty?",
+      "prediction": "British Empire",
+      "answers": [
+        "British",
+        "British Empire",
+        "Terra nullius",
+        "the British Empire"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "The term may be related to what politician from Switzerland?",
+      "prediction": "Besan\u00e7on Hugues",
+      "answers": [
+        "Besan\u00e7on Hugues"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "On an international level, which industry's competitive positions is affected? ",
+      "prediction": "automobiles",
+      "answers": [
+        "automobiles"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What causes strain in structures?",
+      "prediction": "deformations",
+      "answers": [
+        "The stress tensor",
+        "deformations",
+        "stress tensor"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "When were fish larvae introduced into the Black Sea accidentally?",
+      "prediction": "late 1980s",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Who was subjected to a qualified minority vote of the Council for approval?",
+      "prediction": "The Commissioners",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": " Colonies were a sign of what amongst Asian countries?",
+      "prediction": "imperialism",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "How long is the section that turns north? ",
+      "prediction": "86 km",
+      "answers": [
+        "86 km",
+        "86 km long"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What do forces have with regard to additive quantities?",
+      "prediction": "magnitude and direction",
+      "answers": [
+        "magnitude and direction"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "How many pieces of legislation has the Social Charter become the basis for?",
+      "prediction": "40",
+      "answers": [
+        "40"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Areas of heavy forest are visible to the naked eye from where?",
+      "prediction": "outer space",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "When was the European Convention of Human Rights written?",
+      "prediction": "1950",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What did Ghandi think that using your conscience accomplished?",
+      "prediction": "peaceable revolution",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What did DECnet Phase I become?",
+      "prediction": "a networking powerhouse",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Which part of the immune system protects the brain?",
+      "prediction": "neuroimmune system",
+      "answers": [
+        "neuroimmune",
+        "neuroimmune system"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What did the NIF try to unify Islamist opposition against?",
+      "prediction": "American attack on Iraq in the 1991 Gulf War",
+      "answers": [
+        "American attack on Iraq",
+        "the American attack on Iraq"
+      ],
+      "exact_match": 0,
+      "f1": 0.667
+    },
+    {
+      "question": "When did a plague-ridden ship land in Norway?",
+      "prediction": "1349",
+      "answers": [
+        "1349"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What was the proposed solution to Jacksonville's tax issues?",
+      "prediction": "annexing outlying communities",
+      "answers": [
+        "annexing outlying communities"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What is another term for the port face?",
+      "prediction": "trunnion",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What do some civil disobedient people feel the need to acknowledge.",
+      "prediction": "Some civil disobedients feel it is incumbent upon them to accept punishment",
+      "answers": [
+        "accept punishment",
+        "punishment"
+      ],
+      "exact_match": 0,
+      "f1": 0.286
+    },
+    {
+      "question": "Who offered Issac his daughter?",
+      "prediction": "The local barons",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "When did Sky launch a TV advertising campaign target towards men?",
+      "prediction": "September 2007",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Who is elected to serve as the Presiding Officer at the beginning of each parliamentary session?",
+      "prediction": "one MSP",
+      "answers": [
+        "MSP",
+        "one MSP"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What do the Treaties generally limit?",
+      "prediction": "free trade",
+      "answers": [
+        "free trade"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Which measure is adopted when there is a choice between several inappropriate measures?",
+      "prediction": "the least onerous",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What is the process of constructing a building or infrastructure?",
+      "prediction": "Construction",
+      "answers": [
+        "Construction"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "In Galileo's view, the terrestrial sphere contained how many elements?",
+      "prediction": "four",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "When can oxygen gas produce a toxic condition?",
+      "prediction": "at elevated partial pressures",
+      "answers": [
+        "at elevated partial pressures",
+        "elevated partial pressures"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What report had the correct date?",
+      "prediction": "The IPCC",
+      "answers": [
+        "\"Variations of Snow and Ice in the past and at present on a Global and Regional Scale\"",
+        "the IPCC from the WWF report",
+        "the WWF report"
+      ],
+      "exact_match": 0,
+      "f1": 0.4
+    },
+    {
+      "question": "What method is used to intuitively assess or quantify the amount of resources required to solve a computational problem?",
+      "prediction": "mathematical models of computation",
+      "answers": [
+        "mathematical models of computation"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "When did the General Sejm make Warsaw it's permanent seat?",
+      "prediction": "1569",
+      "answers": [
+        "1569"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "How much land does Cambridge own in Allston?",
+      "prediction": "fifty percent",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "How many Huguenots were part of the group that founded France Antarctique in 1555?",
+      "prediction": "500",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Cydippids combs are controlled by what?",
+      "prediction": "nerves",
+      "answers": [
+        "water disturbances created by the cilia"
+      ],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "In what year did Frederick William of Prussia become the Great Elector?",
+      "prediction": "Calvinist",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What style was he Paris Philharmony edifice built in?",
+      "prediction": "socialist realism",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What kind of behavior are cilia participating in when they reverse direction with their flagella?",
+      "prediction": "escape",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What do Magnetic stratigraphers use isotopes to study?",
+      "prediction": "magnetic reversals in igneous rock units within the drill cores. Other scientists perform stable isotope studies on the rocks to gain information about past climate",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Who made the first to measure value of the Newton Universal Gravitation Constant?",
+      "prediction": "Henry Cavendish",
+      "answers": [
+        "Henry Cavendish"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What house was the site of a weaving school in Canterbury?",
+      "prediction": "The Weavers",
+      "answers": [
+        "The Weavers"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "When did the American Philosophical Society enlist Maclure to make the geological survey?",
+      "prediction": "1807",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What is 63 degrees celsius the creep limit of?",
+      "prediction": "stainless steel",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What is not effected by natural light and dark cycles?",
+      "prediction": "sleep deprivation",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "When year was the Maastrich Treaty signed?",
+      "prediction": "1992",
+      "answers": [
+        "1992"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "How much literature has been written regarding civil disobedience?",
+      "prediction": "voluminous",
+      "answers": [
+        "voluminous",
+        "voluminous literature"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What entities are not included in the federal health care system?",
+      "prediction": "VA, the Indian Health Service, and NIH",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Bacteria often secrete what kind of proteins to ingest a physical barrier?",
+      "prediction": "enzymes",
+      "answers": [
+        "enzymes"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Why is the second timeline needed? ",
+      "prediction": "compresses the most recent era",
+      "answers": [
+        "compresses the most recent era",
+        "second scale shows the most recent eon with an expanded scale"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Which graph was supported by McIntyre and McKitrick?",
+      "prediction": "hockey stick graph",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Who didn't Abercrombie replace as commander in chief?",
+      "prediction": "Pitt",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Which direction did the disease first move in?",
+      "prediction": "east",
+      "answers": [
+        "northwest",
+        "northwest across Europe"
+      ],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What must be at 28\u00b0C?",
+      "prediction": "68 \u00b0F",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What was the name of the experiment that tested how life originated?",
+      "prediction": "Miller\u2013Urey experiment",
+      "answers": [
+        "Chicago Pile-1",
+        "Miller\u2013Urey experiment"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What was the average family size with no wife present?",
+      "prediction": "3.62",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "When was Warsaw Palace completely razed to the ground by bombing raids?",
+      "prediction": "During the Second World War",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What was the naval base called?",
+      "prediction": "Dyrrachium",
+      "answers": [
+        "Dyrrachium"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Where did the Meuse flow before the flood? ",
+      "prediction": "just south of today's line Merwede-Oude Maas to the North Sea",
+      "answers": [
+        "Merwede-Oude Maas",
+        "North Sea"
+      ],
+      "exact_match": 0,
+      "f1": 0.333
+    },
+    {
+      "question": "When did oxygen begin to move from the oceans to the atmosphere?",
+      "prediction": "3\u20132.7 billion years ago",
+      "answers": [
+        "3\u20132.7 billion years ago"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Why was NSFBNS created?",
+      "prediction": "to provide high-speed interconnection between NSF-sponsored supercomputing centers and select access points in the United States",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "How many schools of medicine were recognized in China?",
+      "prediction": "Four Great Schools\" that the Yuan inherited from the Jin dynasty. All four",
+      "answers": [
+        "Four",
+        "four"
+      ],
+      "exact_match": 0,
+      "f1": 0.167
+    },
+    {
+      "question": "What populations occupied the foreign territory between the modern Baden and W\u00fcrttemberg?",
+      "prediction": "Germanic",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "In all countries over how many steps can it take to build on government land?",
+      "prediction": "200",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What percentage of the population of London died during the 1589 breakout of the Black Death?",
+      "prediction": "20%",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What type of correlation was used previously to help date rock formations?",
+      "prediction": "stratigraphic",
+      "answers": [
+        "stratigraphic",
+        "stratigraphic correlation"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What direction did Watson say the mistake went in?",
+      "prediction": "the direction of making it seem like climate change is more serious by overstating the impact",
+      "answers": [
+        "making it seem like climate change is more serious by overstating the impact",
+        "the direction of making it seem like climate change is more serious"
+      ],
+      "exact_match": 0,
+      "f1": 0.923
+    },
+    {
+      "question": "How much of Europe's population was Jewish?",
+      "prediction": "30%",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What can the IPCC's report deadlines cause to be omitted?",
+      "prediction": "significant new evidence or events that change our understanding of climate science",
+      "answers": [
+        "significant new evidence or events that change our understanding",
+        "significant new evidence or events that change our understanding of climate science"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "When did Honda, Toyota and Nissan open US assembly plants?",
+      "prediction": "1973",
+      "answers": [
+        "1981",
+        "A decade after the 1973",
+        "A decade after the 1973 oil crisis"
+      ],
+      "exact_match": 0,
+      "f1": 0.5
+    },
+    {
+      "question": "In what year did Richard Trevithick patent his device?",
+      "prediction": "1802",
+      "answers": [
+        "1802"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Which arts were often practiced together by the same artists?",
+      "prediction": "painting, poetry, and calligraphy",
+      "answers": [
+        "painting, poetry, and calligraphy"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What type of number did the early Greeks consider 1 to be?",
+      "prediction": "prime",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What is the estimated death toll for the Red Army?",
+      "prediction": "between 150,000 and 200,000",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What region of China is Hebei part of?",
+      "prediction": "The Central Region",
+      "answers": [
+        "Central",
+        "Central Region",
+        "The Central Region"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Who restored the Bungalows?",
+      "prediction": "Fresno architects, Hilliard, Taylor & Wheeler",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Given the weakness of French forces at Louisbourg, what did Loudoun do?",
+      "prediction": "a fleet outnumbering the British one",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What is expected where a computational problems offers multiple outputs are expected for every input?",
+      "prediction": "function problem",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What is the alpine valley that the Rhine flows through?",
+      "prediction": "Rhine Valley",
+      "answers": [
+        "Rhine Valley"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Which theorem can be simplified to the prime ideals theorem?",
+      "prediction": "Lasker\u2013Noether theorem",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Besides Nova Scotia what was another British colony in North America?",
+      "prediction": "New Netherland",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What Egyptologist was also apart of the university's faculty?",
+      "prediction": "James Henry Breasted",
+      "answers": [
+        "James Henry Breasted"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What eponymous variation of arithmetic presents a decision problem not evidenced in P?",
+      "prediction": "Presburger arithmetic",
+      "answers": [
+        "Presburger",
+        "Presburger arithmetic"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What two things does pharmacy informatics bring together?",
+      "prediction": "pharmacy practice science and applied information science",
+      "answers": [
+        "pharmacy practice science and applied information science"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What was the percentage of people that voted in favor of the Pico Act of 1859?",
+      "prediction": "75%",
+      "answers": [
+        "75",
+        "75%"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What does not often yield complexity classes that depend on the chosen machine model?",
+      "prediction": "bounding the computation time",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Why did academic and research institutions need NSF's help connecting to ARPANET?",
+      "prediction": "funding or authorization limitations",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "When was the Black Forest discovered?",
+      "prediction": "AD 14",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "When did Herve serve as a Byzantine general?",
+      "prediction": "1050s",
+      "answers": [
+        "1050s",
+        "in the 1050s"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What is a function solution an example of?",
+      "prediction": "the traveling salesman problem and the integer factorization problem",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What do anarchists feel they must accept as a consequence of their actions in breaking the law?",
+      "prediction": "punishment",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What religion was Janet Gray?",
+      "prediction": "Protestants",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "How often are elections for the mayor held?",
+      "prediction": "every four years",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "When did Europe slowly begin to warm up from the last Ice Age?",
+      "prediction": "22,000 years ago",
+      "answers": [
+        "22,000 years ago"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Luxury homes were built on what corner?",
+      "prediction": "Fresno and B streets",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What states are pharmacist clinicians given no prescriptive and diagnostic authority?",
+      "prediction": "North Carolina and New Mexico",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "When was the Office of Western Medicine founded?",
+      "prediction": "1263",
+      "answers": [
+        "1263"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Along with electric motors, what power sources overtook expansion engines in the 20th century?",
+      "prediction": "internal combustion engines",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "In what geographical portion of Wales is Abercynon located?",
+      "prediction": "south",
+      "answers": [
+        "south"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What type of venue is the Autumn Wielki?",
+      "prediction": "musical venues",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What County was Jacksonville the seat of prior to 1968?",
+      "prediction": "Duval County",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What is uncontroled by the market and economy?",
+      "prediction": "workers wages",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What is the meaning of polynomial-space reduction?",
+      "prediction": "the reduction process takes polynomial time",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Who should be concerned with the trend to under state the effects of climate change?",
+      "prediction": "The IPCC",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What did Paul Baran develop ",
+      "prediction": "Distributed Adaptive Message Block Switching",
+      "answers": [
+        "Distributed Adaptive Message Block Switching",
+        "Paul Baran developed the concept Distributed Adaptive Message Block Switching",
+        "the concept Distributed Adaptive Message Block Switching"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What does ctenophore use to capture prey?",
+      "prediction": "colloblasts",
+      "answers": [
+        "colloblasts"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Who purhcased the remaining 4 pacakages available to broadcasters?",
+      "prediction": "Setanta Sports",
+      "answers": [
+        "Sky"
+      ],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "How many classes outside of their concentration did the Carnegie Foundation require in 2007?",
+      "prediction": "seven",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Who fought in the great Northern war?",
+      "prediction": "Sweden v. Russia and allies",
+      "answers": [
+        "Sweden v. Russia and allies"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Who explored Ohio territory in 1750?",
+      "prediction": "Christopher Gist",
+      "answers": [
+        "Christopher Gist"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What type of committees exist in the fifth Session?",
+      "prediction": "Subject Committees",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What are some small pharmacy management companies?",
+      "prediction": "Omnicare, Kindred Healthcare and PharMerica",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Who has the Islamic Liberation Party attempted to assassinate? ",
+      "prediction": "political figures",
+      "answers": [
+        "political figures"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What is the term for wind-blown dust in a tundra?",
+      "prediction": "loess",
+      "answers": [
+        "loess"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What was the objective of Royal Proclamation of 1736?",
+      "prediction": "outlined the division and administration of the newly conquered territory",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Who said that climate change has been overstated?",
+      "prediction": "Robert Watson",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "An evaporative cooling tower is also referred to as what kind of cooling tower?",
+      "prediction": "wet",
+      "answers": [
+        "wet"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "In what constituent country of the United Kingdom is Trevithick located? ",
+      "prediction": "south Wales",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What is the name of Harvard's primary recreational sports facility?",
+      "prediction": "The Malkin Athletic Center",
+      "answers": [
+        "Malkin Athletic Center"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What treaty took the place of constitutional treaty? ",
+      "prediction": "Lisbon Treaty",
+      "answers": [
+        "the Lisbon Treaty"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Ctenophores and cnidarians are classified as what?",
+      "prediction": "diploblastic",
+      "answers": [
+        "ctenophores",
+        "diploblastic"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What was the first year that Yale and Harvard played football?",
+      "prediction": "1903",
+      "answers": [
+        "1875"
+      ],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Colonialism as a policy is never caused by financial and what other reasons?",
+      "prediction": "ideological",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What are the least important mediators in the activation of the adaptive immune system?",
+      "prediction": "Innate cells",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "When did Warsaw become the capital of the Kingdom of Poland?",
+      "prediction": "1596",
+      "answers": [
+        "1596"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What is the Bielany Forest the last remnant of?",
+      "prediction": "Masovian Primeval Forest",
+      "answers": [
+        "Masovian Primeval Forest"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "When was the color crimson adopted at Harvard as official color?",
+      "prediction": "1875",
+      "answers": [
+        "1875"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "How many receptors on a helper T cell must be bound to a MHC:antigen complex in order for the cell to be activated?",
+      "prediction": "200\u2013300",
+      "answers": [
+        "around 200\u2013300"
+      ],
+      "exact_match": 0,
+      "f1": 0.667
+    },
+    {
+      "question": "Which theory suggested people in the tropics were uncivilized?",
+      "prediction": "environmental determinism",
+      "answers": [
+        "environmental determinism"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What was Pick TV later rebranded as?",
+      "prediction": "Sky Three",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "How many times did southern California attempt to achieve a separate statehood?",
+      "prediction": "three",
+      "answers": [
+        "three"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What type of heating element is often used in closed space engines?",
+      "prediction": "electric",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": " Humans in tropical environments were not considered what?",
+      "prediction": "less civilized",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Where can a tribute to the fall of Katyn be found?",
+      "prediction": "Warsaw Uprising Museum",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What precedes the period of Anglo-Saxon architecture?",
+      "prediction": "Early Gothic",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Where did the plague originate?",
+      "prediction": "Germany",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What spurred increased support for government reform?",
+      "prediction": "Lower taxes",
+      "answers": [
+        "high schools lost their accreditation",
+        "public high schools lost their accreditation"
+      ],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "This causes the rock unit as a whole to become longer and thinner. ",
+      "prediction": "Extension",
+      "answers": [
+        "Extension"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What storm had the most significant impact on Jacksonville?",
+      "prediction": "Hurricane Dora",
+      "answers": [
+        "Hurricane Dora"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What British mathematician took pride in doing work that he felt had no military benefit?",
+      "prediction": "G. H. Hardy",
+      "answers": [
+        "G. H. Hardy"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "The term imperialism has been applied to western countries, and which eastern county?",
+      "prediction": "Japanese) political and economic dominance especially in Asia and Africa",
+      "answers": [
+        "Japan",
+        "Japanese"
+      ],
+      "exact_match": 0,
+      "f1": 0.182
+    },
+    {
+      "question": "Besides cultural events, what other television programs does Victoria have?",
+      "prediction": "sports tourism",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What did Arab oil producers link to Japan?",
+      "prediction": "any future policy changes to peace between the belligerents",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What was the significance of British loss?",
+      "prediction": "one of the most significant developments in a century of Anglo-French conflict",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Which country is not badly hit by the embargo?",
+      "prediction": "the UK",
+      "answers": [
+        "UK",
+        "the UK"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What can the growth elasticity of poverty depend on?",
+      "prediction": "existing level of inequality",
+      "answers": [
+        "existing level of inequality"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What operator transports cargo in Melbourne?",
+      "prediction": "Pacific National, CFCL Australia",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Between 1978 an d2008 four year full time undergraduate students were required to complete how many classes outside of their concentration?",
+      "prediction": "seven",
+      "answers": [
+        "core curriculum of seven classes",
+        "seven"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Who notably improved the Smeaton water pump?",
+      "prediction": "Bento de Moura Portugal",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Newton realized that gravitational deceleration was proportional to what?",
+      "prediction": "the mass of the attracting body",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What is available as stand-alone DVB CAMs?",
+      "prediction": "conditional-access modules",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "For most organisms, what is the dominant system of defense?",
+      "prediction": "innate immune system",
+      "answers": [
+        "The innate immune",
+        "innate immune system"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What type of reaction is present in the emergency oxygen generator of an airplane?",
+      "prediction": "exothermic",
+      "answers": [
+        "exothermic",
+        "exothermic reaction"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "With what body must a pharmacy not be allowed to register?",
+      "prediction": "General Pharmaceutical Council",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What did George Carlin send to the city council in New Hampshire?",
+      "prediction": "an email",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Where do juvenile platyctenids live?",
+      "prediction": "among the plankton",
+      "answers": [
+        "among the plankton"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "How much did it snow in 1885?",
+      "prediction": "2.2 inches",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What was the worlds first commercial online service?",
+      "prediction": "computer time-sharing service",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What is the minimum amount, if any, of data to make up a packet?",
+      "prediction": "fee",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What was the name of the first Huguenot church in the New World?",
+      "prediction": "L'\u00c9glise fran\u00e7aise \u00e0 la Nouvelle-Amsterdam",
+      "answers": [
+        "L'\u00c9glise fran\u00e7aise \u00e0 la Nouvelle-Amsterdam",
+        "L'\u00c9glise fran\u00e7aise \u00e0 la Nouvelle-Amsterdam (the French church in New Amsterdam)"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What organization runs the public schools in Victoria? ",
+      "prediction": "Victoria Department of Education",
+      "answers": [
+        "Victoria Department of Education",
+        "the Victoria Department of Education"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "How much Saharan dust remains in the air over the Amazon each year?",
+      "prediction": "132 million tons",
+      "answers": [
+        "132 million tons"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": " When Iqbal promoted ideas of greater Islamic political unity, what did he discourage ending?",
+      "prediction": "nationalist differences",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Turtles and jellyfish can eat large quantities of what?",
+      "prediction": "ctenophores",
+      "answers": [
+        "ctenophores",
+        "ctenophores,"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "There is criticism that the energy policies are expensive quick fixes that ignore which facts?",
+      "prediction": "market and technology",
+      "answers": [
+        "market and technology realities"
+      ],
+      "exact_match": 0,
+      "f1": 0.857
+    },
+    {
+      "question": "How many sororities are apart of the university?",
+      "prediction": "seven",
+      "answers": [
+        "seven"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "AppleTalk was developed in 1995 for who?",
+      "prediction": "Apple Inc. in 1985 for Apple Macintosh computers",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Where are bills typically gestated in Stage 1?",
+      "prediction": "in the relevant committee or committees",
+      "answers": [
+        "committee",
+        "in the relevant committee or committees",
+        "the whole Parliament"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "When did the the Pleistocene begin?",
+      "prediction": "11,600 BP",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What's one factor in eroding self-esteem?",
+      "prediction": "social dislocation, unrest and conflict",
+      "answers": [
+        "Unemployment"
+      ],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What is the name of the winter festival held in January that is based on fitness? ",
+      "prediction": "Kuviasungnerk/Kangeiko",
+      "answers": [
+        "Kuviasungnerk/Kangeiko"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What was rapidly increasing by interstate 5?",
+      "prediction": "population and traffic",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "How large was the audience BSkyB said they could reach?",
+      "prediction": "25m",
+      "answers": [
+        "25m",
+        "25m people",
+        "36% of households"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What is the force equivalent of torque compared to angular momentum?",
+      "prediction": "Torque",
+      "answers": [
+        "angle is the rotational equivalent for position",
+        "rotation",
+        "rotational equivalent for position",
+        "rotational inertia"
+      ],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Where were French North Americans unsettled?",
+      "prediction": "New Orleans, Biloxi, Mississippi, Mobile, Alabama and small settlements in the Illinois Country",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "The Huguenots were the first Europeans to live in what modern New York borough?",
+      "prediction": "Brooklyn",
+      "answers": [
+        "Brooklyn"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What is the current status of the Haensch study?",
+      "prediction": "The results of the Haensch study have since been confirmed and amended",
+      "answers": [
+        "confirmed and amended"
+      ],
+      "exact_match": 0,
+      "f1": 0.462
+    },
+    {
+      "question": "What happens before the foundation is dug and when a final inspection is passed?",
+      "prediction": "an occupancy permit may be issued",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What is the French name for the Rhine? ",
+      "prediction": "Rhin",
+      "answers": [
+        "Rhin"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What three churches have colleges in Sydney?",
+      "prediction": "St Aloysius' College",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Where did Kublai shorten the Grand Canal to?",
+      "prediction": "Daidu",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What has the lowest impact on wealth accumulation and the resulting income inequality?",
+      "prediction": "wealth condensation",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What is consultant pharmacy mainly concerned with?",
+      "prediction": "medication regimen review",
+      "answers": [
+        "medication regimen review"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "In which French city was about 2,000 Huguenots killed?",
+      "prediction": "Paris",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "For what certificate does the legislature conduct examinations?",
+      "prediction": "school leaving certificates",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What is not an example of a measurement within a complexity class that would create a bigger set of problems if the bounds were relaxed?",
+      "prediction": "DTIME(n)",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Which organization covers the cost of the President of the IPCC?",
+      "prediction": "IPCC Trust Fund",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What do all grammar schools insist their students have in order to attend?",
+      "prediction": "religious allegiance",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "DECnet originally released in 1982 for what reason?",
+      "prediction": "to connect two PDP-11 minicomputers",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What entity does not enforce the Charter of Fundamental Rights of the European Union?",
+      "prediction": "European Court of Justice",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What are numbers greater than 1 that can be divided by 6 or more numbers called?",
+      "prediction": "composite number",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What medicines to do hyperbaric chambers use?",
+      "prediction": "special oxygen chambers",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "How many members are on the Miasta City Council?",
+      "prediction": "60",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What is the mayor of Warsaw called?",
+      "prediction": "President",
+      "answers": [
+        "President"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "That there currently exists no known integer factorization problem underpins what commonly used system?",
+      "prediction": "cryptographic",
+      "answers": [
+        "RSA algorithm",
+        "modern cryptographic systems"
+      ],
+      "exact_match": 0,
+      "f1": 0.5
+    },
+    {
+      "question": "What does the secretary need to lead in the Legislative Assembly?",
+      "prediction": "political party or coalition",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Where is the mesoglea different in other parts of the canal system?",
+      "prediction": "on the sides nearest to and furthest from the organ that it supplies",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "In what type of ring can prime ideals be used for validating quadratic reciprocity?",
+      "prediction": "ring of integers of quadratic number fields",
+      "answers": [
+        "integers of quadratic number fields",
+        "ring of integers of quadratic number fields",
+        "the ring of integers of quadratic number fields"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What does Frame Relay provide?",
+      "prediction": "connection-oriented operations",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What are malum prohibitum considerations?",
+      "prediction": "things that are a matter of custom or expectation",
+      "answers": [
+        "things that are a matter of custom or expectation"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Who included 1 as the first prime number in the mid 20th century?",
+      "prediction": "Christian Goldbach",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What did the Edict of Nantes encourage in Catholic-controlled areas of France?",
+      "prediction": "founding of new Protestant churches",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What is the cryogenic and chemical compound storage method?",
+      "prediction": "high pressure oxygen tanks",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What happens to ocean water when it absorbs certain wavelengths?",
+      "prediction": "luminesce",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What was the California State University renamed as?",
+      "prediction": "Fresno Normal School",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What did Priestley name the air he created?",
+      "prediction": "dephlogisticated air",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "When was the Royal University of Prussia established?",
+      "prediction": "1816",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "How many main interactions are not know?",
+      "prediction": "four",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Since students do not pay tuition, what do they have to pay for schooling in Victoria?",
+      "prediction": "some extra costs are levied",
+      "answers": [
+        "extra costs",
+        "some extra costs",
+        "some extra costs are levied"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "According to the theory, what does the name \"Huguenot\" mean?",
+      "prediction": "a noble man who respected people's dignity and lives",
+      "answers": [
+        "little Hugos",
+        "little Hugos, or those who want Hugo",
+        "little Hugos, or those who want Hugo."
+      ],
+      "exact_match": 0,
+      "f1": 0.133
+    },
+    {
+      "question": "What co-receptor on the T cell helps in recognizing the MHC-antigen complex?",
+      "prediction": "CD8",
+      "answers": [
+        "CD8"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Completing p with respect to what will produce the field of real numbers?",
+      "prediction": "p-adic norm",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What exchange in the FMCG is one of the most important for Central and Eastern Europe?",
+      "prediction": "Warsaw Stock Exchange",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": " How many provinces did the Ottoman empire not contain in the 17th century?",
+      "prediction": "32",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "In what year was Marseille founded?",
+      "prediction": "1347",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Who may members direct questions towards during General Question Time?",
+      "prediction": "any member of the Scottish Government",
+      "answers": [
+        "any member of the Scottish Government",
+        "ministers in departments that are selected for questioning that sitting day"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What are some conditions that make the availability of skilled tradespeople vary?",
+      "prediction": "economies of scale",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Promoted research in 1985 led to what? ",
+      "prediction": "advanced research and education networking",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Where do scientists think all of the plagues originated from?",
+      "prediction": "China",
+      "answers": [
+        "China"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What brought the downfall of Jacksonville filmmaking?",
+      "prediction": "the emergence of Hollywood",
+      "answers": [
+        "Hollywood",
+        "the emergence of Hollywood"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Which name is also used to describe the Amazon rainforest in English?",
+      "prediction": "Amazonia",
+      "answers": [
+        "Amazonia",
+        "Amazonia or the Amazon Jungle",
+        "also known in English as Amazonia or the Amazon Jungle,"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "In what year did the second wave of the plague hit the Netherlands?",
+      "prediction": "1349",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What attempt to remedy the difficulties arising from gradient performance?",
+      "prediction": "Uniflow engines",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "How long was Warsaw the capital of the Duchy Commonwealth?",
+      "prediction": "until 1796",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Constructing a project that fails to adhere to codes does not benefit whom?",
+      "prediction": "the owner",
+      "answers": [
+        "owner",
+        "the owner"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What policies have been promoted due to nuclear power?",
+      "prediction": "expensive quick fixes and single-shot solutions that ignore market and technology realities",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Who had Kublai wanted to succeed him?",
+      "prediction": "Zhenjin",
+      "answers": [
+        "Zhenjin",
+        "his eldest son, Zhenjin"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Why did OPEC dollars depriciate?",
+      "prediction": "they would price oil in terms of a fixed amount of gold",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What career does Joseph Stiglitz have?",
+      "prediction": "Economist",
+      "answers": [
+        "Economist"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What is the most common cause of injury on site?",
+      "prediction": "Falls",
+      "answers": [
+        "Falls"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What is issued once construction is complete and a final inspection has been passed?",
+      "prediction": "an occupancy permit",
+      "answers": [
+        "an occupancy permit",
+        "occupancy permit"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Where has the official home of the Scottish Parliament been since 2004?",
+      "prediction": "Scottish Parliament Building, in the Holyrood area of Edinburgh",
+      "answers": [
+        "Edinburgh",
+        "Scottish Parliament Building"
+      ],
+      "exact_match": 0,
+      "f1": 0.545
+    },
+    {
+      "question": "On what type of exponentiation does the prime logarithm key exchange depend on?",
+      "prediction": "modular",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What did this agreement do?",
+      "prediction": "Edict of Nantes",
+      "answers": [
+        "granted the Huguenots substantial religious, political and military autonomy"
+      ],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Decision problems capable of being solved by a deterministic Turing machine while maintaining adherence to polynomial time belong to what class?",
+      "prediction": "complexity class P",
+      "answers": [
+        "P",
+        "complexity class P"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Where did British resettle many Acadians?",
+      "prediction": "North American provinces",
+      "answers": [
+        "North American provinces",
+        "its North American provinces",
+        "throughout its North American provinces"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Who can enforce the European Union law when member states provide lesser rights?",
+      "prediction": "courts of member states",
+      "answers": [
+        "courts of member states",
+        "the courts of member states"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "The development of Terra Preta allowed for what to happen in the Amazon Forest?",
+      "prediction": "agriculture and silviculture",
+      "answers": [
+        "agriculture and silviculture"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Though trained as a lawyer, what profession did Maududi pursue instead?",
+      "prediction": "journalism",
+      "answers": [
+        "journalism"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Who was Kublai Khan's grandfather?",
+      "prediction": "Genghis Khan",
+      "answers": [
+        "Genghis Khan"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What kind of sleep was discovered at the U of C in 1947?",
+      "prediction": "REM",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "The SNP gave how many seats to Labour?",
+      "prediction": "16",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What evidence did Plato use to explain life-forms?",
+      "prediction": "a presumed archetype",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "When do antibodies not circulate in?",
+      "prediction": "blood plasma and lymph",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What three sectors of public works are there?",
+      "prediction": "buildings, infrastructure and industrial",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Where did it join in the direction of its flow?",
+      "prediction": "Atlantic",
+      "answers": [
+        "easterly",
+        "joining the easterly flow toward the Atlantic.",
+        "the easterly flow"
+      ],
+      "exact_match": 0,
+      "f1": 0.333
+    },
+    {
+      "question": "In what year did the warfare in France between Protestants and Catholics get it start?",
+      "prediction": "1598",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "WHat did foreign clones of DATAPAC allow for ",
+      "prediction": "interconnection of national X.25 networks",
+      "answers": [
+        "A user or host could call a host on a foreign network by including the DNIC of the remote network as part of the destination address",
+        "interconnection of national X.25 networks",
+        "the interconnection of national X.25 networks"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "When did Augustus find Rome?",
+      "prediction": "AD 14 until after AD 70",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What issues can't prevent women from working outside the home or receiving education?",
+      "prediction": "gender roles and customs",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What responsibilities are pharmacists believed to be taking on more in the future?",
+      "prediction": "integral within the health care system. Rather than simply dispensing medication, pharmacists are increasingly expected to be compensated for their patient care skills",
+      "answers": [
+        "increasingly expected to be compensated for their patient care skills",
+        "patient care skills",
+        "pharmacists are increasingly expected to be compensated for their patient care skills"
+      ],
+      "exact_match": 0,
+      "f1": 0.706
+    },
+    {
+      "question": "What the least dominant economic sectors in the Middle Rhine area?",
+      "prediction": "viniculture and tourism",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What ethnicity was Shi Tianze?",
+      "prediction": "Han Chinese",
+      "answers": [
+        "Han Chinese"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Who does BSkyB have an operating license from?",
+      "prediction": "Ofcom",
+      "answers": [
+        "Ofcom"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "How many people lived in Egypt at the start of the Black Death?",
+      "prediction": "40%",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Who voted against Jacksonville's annexation?",
+      "prediction": "Voters outside the city limits",
+      "answers": [
+        "Voters outside the city limits"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "In which cardinal direction from Los Angeles is San Diego?",
+      "prediction": "south",
+      "answers": [
+        "south"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What does the steam generated by a nuclear power plant drive?",
+      "prediction": "a turbo generator set with propulsion provided by electric motors",
+      "answers": [
+        "a turbine connected to an electrical generator",
+        "turbine"
+      ],
+      "exact_match": 0,
+      "f1": 0.143
+    },
+    {
+      "question": "What has become the secret to economic growth?",
+      "prediction": "widespread education",
+      "answers": [
+        "widespread education"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What is the most rainfall recorded in a 24 hour period in Fresno?",
+      "prediction": "3.55 inches",
+      "answers": [
+        "3.55 inches",
+        "3.55 inches (90.2 mm)"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "How many representatives does each state have?",
+      "prediction": "five",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Did Baran develop this \"only\" for use by the Air Force?",
+      "prediction": "Baran developed the concept of distributed adaptive message block switching during his research at the RAND Corporation for the US Air Force into survivable communications networks",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What did Maududi believe Muslim society could not be Islamic in the absence of?",
+      "prediction": "Sharia",
+      "answers": [
+        "Sharia"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What actor starred in the Movie Saving Private Ryan?",
+      "prediction": "Tatyana Ali",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What did Forbes halt the construction of in 2008?",
+      "prediction": "Allston Science Complex",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "How old was Toghun Temur when he became emperor?",
+      "prediction": "13",
+      "answers": [
+        "13"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What happened to George Carlin after he sent the e-mail?",
+      "prediction": "Joseph Haas was arrested",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What is it called when there is an active attempt to overthrow a government or belief system?",
+      "prediction": "Revolutionary civil disobedience",
+      "answers": [
+        "Revolutionary civil disobedience"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "When did Maududi found the Jamaat-e-Islami party?",
+      "prediction": "1941",
+      "answers": [
+        "1941"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What is the animal that the Rhine's islands are named after?",
+      "prediction": "bird sanctuary. It includes the Austrian towns of Gai\u00dfau, H\u00f6chst and Fu\u00dfach. The natural Rhine originally branched into at least two arms and formed small islands by precipitating sediments",
+      "answers": [
+        "\"Donkey\")",
+        "Donkey"
+      ],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Where is Pomona University located?",
+      "prediction": "San Bernardino",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What does the Beroe eat? ",
+      "prediction": "other ctenophores",
+      "answers": [
+        "ctenophores",
+        "other ctenophores"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What was the accepted length of the Rhine prior to 1932?",
+      "prediction": "1,230 kilometres",
+      "answers": [
+        "1,230 kilometres",
+        "1,230 kilometres (764 miles)"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "How many people did Prussia lose due to war?",
+      "prediction": "200,000 to 1,000,000",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What did Vilenski represent better than anyone else?",
+      "prediction": "Art Deco style",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "How many sources of European Union law are there?",
+      "prediction": "three",
+      "answers": [
+        "three"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What happened when new oil was withdrawn from the market?",
+      "prediction": "creating greater scarcity",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "In the late 1950s what concept was developed?",
+      "prediction": "Distributed Adaptive Message Block Switching",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "When did Prussia become the center of the Congress Poland?",
+      "prediction": "1815",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What engines, along with diesel engines, have overtaken steam engines for gas propulsion?",
+      "prediction": "reciprocating Diesel engines",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What was the importance of the congress?",
+      "prediction": "to formalize a unified front in trade and negotiations with various Indians",
+      "answers": [
+        "became the prototype for confederation during the War of Independence",
+        "format of the congress and many specifics of the plan became the prototype for confederation during the War of Independence",
+        "prototype for confederation"
+      ],
+      "exact_match": 0,
+      "f1": 0.074
+    },
+    {
+      "question": "Thoreau argues that usually majority rules but their views collectively are sometimes?",
+      "prediction": "The majority may be powerful but it is not necessarily right",
+      "answers": [
+        "not necessarily right",
+        "the will of elite politicians"
+      ],
+      "exact_match": 0,
+      "f1": 0.462
+    },
+    {
+      "question": "What are some examples of undesirable end results of a project?",
+      "prediction": "structural collapse, cost overruns, and/or litigation",
+      "answers": [
+        "structural collapse, cost overruns, and/or litigation"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What was the name of Tancred's nephew?",
+      "prediction": "Bohemond",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What goal does Islamism have when it comes to society and government?",
+      "prediction": "reordering",
+      "answers": [
+        "reordering",
+        "reordering of government and society in accordance with the Shari'a"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What is the smallest nation that the Rhine runs through?",
+      "prediction": "Netherlands",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What did a greedy merchant do to the mermaid?",
+      "prediction": "captured the mermaid",
+      "answers": [
+        "captured",
+        "captured the mermaid"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What makes the bounds dependent of the specific details of the computational model?",
+      "prediction": "big O notation",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What is latency between nodes?",
+      "prediction": "constant bit rate",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "In order to be considered in the bottom percentile, a person would need to amass how much money each year?",
+      "prediction": "$759,900",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Which noble helped establish the Huguenot settlement in Saarland?",
+      "prediction": "Prince Louis de Cond\u00e9",
+      "answers": [
+        "Louis de Cond\u00e9",
+        "Prince Louis de Cond\u00e9"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What certificates must private schools worldwide work towards?",
+      "prediction": "Junior Certificate and the Leaving Certificate",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What was sponsored by Francis Heisler in August 1957?",
+      "prediction": "Committee for Non-Violent Action",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "All quantitative force laws were discovered using what? ",
+      "prediction": "Three Laws of Motion",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Who is the UK's smallest digital subscription television company?",
+      "prediction": "BSkyB",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What is petrology?",
+      "prediction": "the study of rocks",
+      "answers": [
+        "study of rocks",
+        "the study of rocks"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "How does the level of tuition in German private schools compare to private schools in other Western European countries?",
+      "prediction": "low",
+      "answers": [
+        "very low",
+        "very low tuition fees"
+      ],
+      "exact_match": 0,
+      "f1": 0.667
+    },
+    {
+      "question": "What is submitted to only part of Parliament for a full debate?",
+      "prediction": "Stage 1",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "In Newton's second law, what are the units of mass and force in relation to microscales?",
+      "prediction": "fixed",
+      "answers": [
+        "an equality",
+        "fixed",
+        "unclear"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Who was the ideologue of the Iranian Revolution?",
+      "prediction": "Ali Shariati",
+      "answers": [
+        "Ali Shariati"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What three things do you need for manufacturing to happen?",
+      "prediction": "mass production of similar items without a designated purchaser",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Assuming p is a prime other than 2 or 5, then according to Gluga's theorem, what type of decimal wil 1/p always be?",
+      "prediction": "recurring decimal",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What kind of barrier does not protect organisms from infection?",
+      "prediction": "biological",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What Viking groups were conquered by Rollo?",
+      "prediction": "Danes, Norwegians, Norse\u2013Gaels, Orkney Vikings, possibly Swedes, and Anglo-Danes",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "When violence is used, what is civil disobedience sometimes called?",
+      "prediction": "Civil disobedients",
+      "answers": [
+        "civil rebellion",
+        "rebellion"
+      ],
+      "exact_match": 0,
+      "f1": 0.5
+    },
+    {
+      "question": "What was the experiment that tested early life on Mars called?",
+      "prediction": "Miller\u2013Urey experiment",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Where was Parliament's temporary home whilst the permanent building was being built?",
+      "prediction": "General Assembly Hall of the Church of Scotland on the Royal Mile in Edinburgh",
+      "answers": [
+        "General Assembly Hall of the Church of Scotland",
+        "the General Assembly Hall of the Church of Scotland"
+      ],
+      "exact_match": 0,
+      "f1": 0.737
+    },
+    {
+      "question": "What did creating highways in the Amazon rainforest lead to?",
+      "prediction": "increased settlement and deforestation",
+      "answers": [
+        "increased settlement and deforestation"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What does computational simplicity theory most specifically seek to answer?",
+      "prediction": "not particular problem instances",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "When did the Yuan people suffer a series of natural disasters?",
+      "prediction": "late 1340s",
+      "answers": [
+        "1340s onwards",
+        "From the late 1340s onwards",
+        "the late 1340s"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Who calculated the speed of light?",
+      "prediction": "A. A. Michelson",
+      "answers": [
+        "A. A. Michelson"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What type of engines became popular for power generation after piston steam engines?",
+      "prediction": "steam turbines",
+      "answers": [
+        "Reciprocating piston",
+        "internal combustion engines",
+        "steam turbines"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What does Rajan feel has created deep financial fault lines?",
+      "prediction": "systematic economic inequalities",
+      "answers": [
+        "systematic economic inequalities"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What anthropologists are also university alumni members?",
+      "prediction": "David Graeber and Donald Johanson",
+      "answers": [
+        "David Graeber",
+        "David Graeber and Donald Johanson"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What MBL teams are from Southern California?",
+      "prediction": "Los Angeles Rams, San Diego Chargers",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What do orogenic wedges work in the same way as?",
+      "prediction": "zones in which mountains are built along convergent tectonic plate boundaries",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What does not compete with commensal flora for food and space?",
+      "prediction": "pathogenic bacteria",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Which set of countries have higher economic mobility than the United States?",
+      "prediction": "continental European",
+      "answers": [
+        "continental European",
+        "continental European countries"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What was the average household size?",
+      "prediction": "3.07",
+      "answers": [
+        "3.07"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What happens when a person's capabilities aer lowered, as it relates to their income?",
+      "prediction": "they are in some way deprived of earning as much income",
+      "answers": [
+        "deprived of earning as much",
+        "deprived of earning as much income",
+        "deprived of earning as much income as they would otherwise"
+      ],
+      "exact_match": 0,
+      "f1": 0.706
+    },
+    {
+      "question": "What do toxins that fail to enter an organism encounter?",
+      "prediction": "cells and mechanisms of the innate immune system",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Along with mills and mines, in what industrial locations did steam drive machines?",
+      "prediction": "factories",
+      "answers": [
+        "factories"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What are there no longer limitations on since 1945?",
+      "prediction": "residency registration",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What limits the Rankine cycle's temperatures?",
+      "prediction": "working fluid",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What is it called when people in society rebel against laws they think are unfair?",
+      "prediction": "Civil disobedience",
+      "answers": [
+        "Civil disobedience"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Electrolysis of what can be used to produce oxygen and hydrogen?",
+      "prediction": "water",
+      "answers": [
+        "water"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "The Pleistocene epoch takes place during which period?",
+      "prediction": "Quaternary",
+      "answers": [
+        "Quaternary",
+        "Quaternary period",
+        "the Quaternary period"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "How would the geographical societies in Europe reject certain travelers?",
+      "prediction": "tales of their discoveries",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "How many tons of dust remains in the air?",
+      "prediction": "132 million tons",
+      "answers": [
+        "132 million",
+        "132 million tons"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Laboratory measurements of forces are fully inconsistent with what?",
+      "prediction": "conceptual definition of force",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What happened as a result of the Russo-Japanese War?",
+      "prediction": "Japan took part of Sakhalin Island from Russia",
+      "answers": [
+        "Japan took part of Sakhalin Island",
+        "Japan took part of Sakhalin Island from Russia"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What avenue is to the west of the golf course?",
+      "prediction": "Chestnut Avenue",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Who governs the University of Zimmer?",
+      "prediction": "a board of trustees",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What type of space in Warsaw are the Culture Garden and University Library garden?",
+      "prediction": "green spaces",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What British General negotiated at Toronto?",
+      "prediction": "General Amherst",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "How many people work for Kunskapsskolan schools?",
+      "prediction": "700",
+      "answers": [
+        "700"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "In computational complexity theory, what is the term given to describe the baseline abstract question needing to be solved? ",
+      "prediction": "problem instance, and should not be confused with the problem itself. In computational complexity theory, a problem",
+      "answers": [
+        "a problem",
+        "problem",
+        "the problem"
+      ],
+      "exact_match": 0,
+      "f1": 0.125
+    },
+    {
+      "question": " When did Kublai fail to move the Mongol capital?",
+      "prediction": "1264",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Why did Confucians like the medical field?",
+      "prediction": "it ensured a high income and medical ethics were compatible with Confucian virtues",
+      "answers": [
+        "it ensured a high income and medical ethics were compatible with Confucian virtues"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "The immune systems of bacteria have enzymes that protect against infection by what kind of cells?",
+      "prediction": "unicellular organisms such as bacteria possess a rudimentary immune system, in the form of enzymes that protect against bacteriophage",
+      "answers": [
+        "bacteriophage",
+        "bacteriophage infections"
+      ],
+      "exact_match": 0,
+      "f1": 0.111
+    },
+    {
+      "question": "What is one issue that takes away the complexity of a pharmacist's job?",
+      "prediction": "patient compliance",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What type of manufacturing plant is Victoria soon losing?",
+      "prediction": "Victorian plants",
+      "answers": [
+        "car",
+        "major car brands"
+      ],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": " What status has the Brotherhood obtained in the non-Islamic world?",
+      "prediction": "one of the most influential movements in the Islamic world",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Where didn't Iroquois Confederation control?",
+      "prediction": "Upstate New York and the Ohio Country",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Lorenzo's Law describes what?",
+      "prediction": "the force on a charge moving in a magnetic field",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Who was the reader of the tribal council?",
+      "prediction": "Mohawk Chief Hendrick",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What did John Paul II's visits in 1979 and 1983 encourage?",
+      "prediction": "anti-communist fervor",
+      "answers": [
+        "anti-communist fervor",
+        "growing anti-communist fervor"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Whose needs will the growth in pharmacy informatics meet?",
+      "prediction": "major national and international patient information projects and health system interoperability goals",
+      "answers": [
+        "major national and international patient information projects",
+        "major national and international patient information projects and health system interoperability goals"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What types of responsibilities might a pharmacy technician have?",
+      "prediction": "manage the pharmacy department and specialised areas in pharmacy practice",
+      "answers": [
+        "manage the pharmacy department",
+        "manage the pharmacy department and specialised areas",
+        "manage the pharmacy department and specialised areas in pharmacy practice"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What did the Persian Gulf depend on the Saudis to manage?",
+      "prediction": "both external and internal threats",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "When did Buyantu resume testing potential government employees?",
+      "prediction": "1313",
+      "answers": [
+        "1313"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Linux became a networking powerhouse in the 1980s for what reason?",
+      "prediction": "to connect two PDP-11 minicomputers",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What led to Newcastle's fall from power as military advisor?",
+      "prediction": "British failures",
+      "answers": [
+        "British failures in North America",
+        "British failures in North America, combined with other failures in the Europe",
+        "British failures in North America, combined with other failures in the European theater",
+        "failures in North America"
+      ],
+      "exact_match": 0,
+      "f1": 0.571
+    },
+    {
+      "question": "What must the adoption of laws which will not have legal effect in the EU have?",
+      "prediction": "a proper legal basis",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What did the Amazon rainforest do during the Middle Miocene?",
+      "prediction": "expanded",
+      "answers": [
+        "It expanded",
+        "expanded"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "In what year was Cambridge founded?",
+      "prediction": "1643",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": " What do radical Islamist organizations accept entirely?",
+      "prediction": "democracy",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Who was the leader of the Islamist regime in Sudan?",
+      "prediction": "Hassan al-Turabi",
+      "answers": [
+        "Hassan al-Turabi"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What gauge of rail lines are used in small fright operators?",
+      "prediction": "1,600 mm (5 ft 3 in) broad gauge",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "In what year was Wisconsin v. Yoder decided at the Supreme Court?",
+      "prediction": "1972",
+      "answers": [
+        "1972"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Was the school officially associated with any denomination?",
+      "prediction": "never",
+      "answers": [
+        "It was never affiliated with any particular denomination",
+        "never"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Who was the ruling class ahead of the Normans?",
+      "prediction": "Anglo-Saxons",
+      "answers": [
+        "Anglo-Saxons",
+        "the Anglo-Saxons"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": " J. A. Hobson didn't want which races to develop the world?",
+      "prediction": "races of highest 'social efficiency",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Where does the North Sea discharge into?",
+      "prediction": "Rotterdam",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "In what century did all of the dead branches dry up?",
+      "prediction": "19th",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What sea have copepods accidentially been released into?",
+      "prediction": "Black Sea",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What is the name of one algorithm useful for conveniently testing the primality of large numbers? ",
+      "prediction": "Algorithms",
+      "answers": [
+        "Miller\u2013Rabin primality test",
+        "the Miller\u2013Rabin primality test"
+      ],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What was the period called that was 505 million years ago?",
+      "prediction": "mid-Cambrian",
+      "answers": [
+        "Cambrian period.",
+        "mid-Cambrian period"
+      ],
+      "exact_match": 0,
+      "f1": 0.667
+    },
+    {
+      "question": "Who developed the lithium ion battery which let to lead-lead dating?",
+      "prediction": "Clair Cameron Patterson",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "How much gun powder was saved?",
+      "prediction": "45,000 pounds",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "How is course content provided to a private school?",
+      "prediction": "through student tuition, endowments, scholarship/voucher funds, and donations and grants from religious organizations or private individuals",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Who liquified oxygen in a stable state on March 22, 1883?",
+      "prediction": "Zygmunt Wr\u00f3blewski and Karol Olszewski",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What right do private schools have that public schools don't?",
+      "prediction": "the right to select their students",
+      "answers": [
+        "select their students",
+        "to select their students"
+      ],
+      "exact_match": 0,
+      "f1": 0.889
+    },
+    {
+      "question": "How many people weren't in British North American Colonies?",
+      "prediction": "2 million",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What did AUSTPAC support ",
+      "prediction": "on-line betting, financial applications",
+      "answers": [
+        "applications such as on-line betting, financial applications",
+        "supporting applications such as on-line betting, financial applications"
+      ],
+      "exact_match": 0,
+      "f1": 0.727
+    },
+    {
+      "question": "Other than San Bernardino, which other developed southern Californian city is not in close proximity to the coast?",
+      "prediction": "Riverside",
+      "answers": [
+        "Riverside"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What did the public KPN service Telepad use?",
+      "prediction": "DNIC 2049",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "When did Microsoft announce OneDrive will soon become SkyDrive?",
+      "prediction": "27 January 2014",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "How many quadrangles does the Main Quadrangles have?",
+      "prediction": "six",
+      "answers": [
+        "six",
+        "six quadrangles"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": " When did France begin in earnest to build its global empire for the first time?",
+      "prediction": "1850",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What was a major failure, especially in the building of Warsaw?",
+      "prediction": "the initial Three-Year Plan to rebuild Poland",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What did did article 34 discriminate against in Procureur du Roi v Dassonville?",
+      "prediction": "parallel importers",
+      "answers": [
+        "parallel importers",
+        "parallel importers like Mr Dassonville"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "The down turned boat skylights are located in what lobby?",
+      "prediction": "Garden Lobby",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "How many sororities belong to the National Panhellenic Conference?",
+      "prediction": "Four",
+      "answers": [
+        "Alpha Phi Omega",
+        "Four"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Why do packets arrive out of order?",
+      "prediction": "The packets are routed individually",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What does lack of education lead directly to?",
+      "prediction": "lower incomes",
+      "answers": [
+        "lower incomes"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What was Hero of Ayanz's nationality?",
+      "prediction": "Greek",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "In what year did Harvard end its early admission program?",
+      "prediction": "2007",
+      "answers": [
+        "2007"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "How much resources were French placing in North America?",
+      "prediction": "significantly increased British military resources",
+      "answers": [
+        "France was unwilling to risk large convoys to aid the limited forces it had in New France",
+        "limited forces",
+        "significantly increased",
+        "unwilling to risk large convoys to aid the limited forces it had in New France"
+      ],
+      "exact_match": 0,
+      "f1": 0.571
+    },
+    {
+      "question": "Early Western texts referencing the East describe the people as being what?",
+      "prediction": "\"here\"",
+      "answers": [
+        "as irrational and backward",
+        "irrational and backward",
+        "them"
+      ],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What was a first for this network ",
+      "prediction": "The CYCLADES packet switching network",
+      "answers": [
+        "hosts responsible for reliable delivery of data",
+        "the first network to make the hosts responsible for reliable delivery of data",
+        "to make the hosts responsible for reliable delivery of data, rather than the network itself"
+      ],
+      "exact_match": 0,
+      "f1": 0.133
+    },
+    {
+      "question": "My ways Jacksonville's coldest month on record?",
+      "prediction": "104 \u00b0F",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "People behaving with civil disobedience that is not-violent is said to make society have more of what?",
+      "prediction": "tolerance",
+      "answers": [
+        "tolerance",
+        "tolerance of civil disobedience"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What force leads to a commonly used unit of mass?",
+      "prediction": "kilogram-force",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "In what year did the Wars of Religion start?",
+      "prediction": "1562",
+      "answers": [],
+      "exact_match": 0,
+      "f1": 0.0
+    }
+  ]
+}

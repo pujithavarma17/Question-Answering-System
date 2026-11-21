@@ -1,0 +1,201 @@
+{
+  "summary": {
+    "model": "models/qa-distilbert-squad2",
+    "dataset": "document",
+    "exact_match": 65.0,
+    "f1": 71.67,
+    "count": 20,
+    "has_answer_exact_match": 58.82,
+    "has_answer_f1": 66.67,
+    "has_answer_count": 17,
+    "no_answer_exact_match": 100.0,
+    "no_answer_f1": 100.0,
+    "no_answer_count": 3,
+    "seconds_per_question": 3.621
+  },
+  "details": [
+    {
+      "question": "What is the subject code?",
+      "prediction": "",
+      "answers": [
+        "22CSC15N"
+      ],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What is the case study number?",
+      "prediction": "OPERATING SYSTEMS - CASE STUDY 10 SLEEP AND WAKEUP MECHANISM IN xv6 Subject Code: 22CSC15N",
+      "answers": [
+        "10",
+        "CASE STUDY 10"
+      ],
+      "exact_match": 0,
+      "f1": 0.353
+    },
+    {
+      "question": "What is continuously checking for an event known as?",
+      "prediction": "busy waiting",
+      "answers": [
+        "busy waiting"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "In which file are sleep and wakeup implemented?",
+      "prediction": "xv6",
+      "answers": [
+        "kernel/proc.c"
+      ],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "What does the wakeup() function change the state of a matching sleeping process to?",
+      "prediction": "RUNNABLE",
+      "answers": [
+        "RUNNABLE"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What does a channel identify?",
+      "prediction": "the event or resource on which a process is waiting",
+      "answers": [
+        "the event or resource on which a process is waiting",
+        "event or resource"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What does sleep() call after setting the state to SLEEPING?",
+      "prediction": "sched",
+      "answers": [
+        "sched()"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Which command was used to launch the kernel?",
+      "prediction": "make qemu command",
+      "answers": [
+        "make qemu",
+        "the make qemu command"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Which emulator was used to run the xv6 kernel?",
+      "prediction": "QEMU",
+      "answers": [
+        "QEMU"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Through what was Ubuntu used?",
+      "prediction": "WSL2",
+      "answers": [
+        "WSL2"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "Which command was entered after the shell started?",
+      "prediction": "After the kernel booted successfully and the shell started, the cat command was entered in the terminal.",
+      "answers": [
+        "cat",
+        "the cat command"
+      ],
+      "exact_match": 0,
+      "f1": 0.267
+    },
+    {
+      "question": "Which file contains the pipe implementation?",
+      "prediction": "xv6",
+      "answers": [
+        "kernel/pipe.c"
+      ],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Which function reads data from the pipe buffer?",
+      "prediction": "The piperead",
+      "answers": [
+        "piperead()",
+        "The piperead() function"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What does pipewrite() call to notify processes waiting for data?",
+      "prediction": "wakeup",
+      "answers": [
+        "wakeup(&pi->nread)"
+      ],
+      "exact_match": 0,
+      "f1": 0.0
+    },
+    {
+      "question": "Which command demonstrates pipe communication in xv6?",
+      "prediction": "cat | cat",
+      "answers": [
+        "cat | cat",
+        "The command cat | cat"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "When does a lost wakeup occur?",
+      "prediction": "when a process misses a wakeup notification",
+      "answers": [
+        "when a process misses a wakeup notification",
+        "when a process misses a wakeup notification because the condition checking and transition to waiting are not coordinated correctly"
+      ],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What does the scheduler do with a runnable process?",
+      "prediction": "Runnable to Running: The scheduler selects the runnable process for execution.",
+      "answers": [
+        "selects the runnable process for execution",
+        "select it for execution",
+        "selects"
+      ],
+      "exact_match": 0,
+      "f1": 0.714
+    },
+    {
+      "question": "Who is the head of the department?",
+      "prediction": "",
+      "answers": [],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "How much faster is sleep and wakeup than busy waiting in milliseconds?",
+      "prediction": "",
+      "answers": [],
+      "exact_match": 1,
+      "f1": 1.0
+    },
+    {
+      "question": "What is the capital of France?",
+      "prediction": "",
+      "answers": [],
+      "exact_match": 1,
+      "f1": 1.0
+    }
+  ]
+}

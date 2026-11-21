@@ -1,0 +1,150 @@
+{
+  "description": "Hand-written question-answer pairs for evaluating the QA system. Each answer is copied exactly from its context. An empty answers list means the question cannot be answered from the passage.",
+  "version": "1.0",
+  "data": [
+    {
+      "domain": "operating_systems",
+      "context": "In an operating system, a process may be unable to continue its execution until a particular event or condition occurs. Continuously checking for the event, known as busy waiting, wastes CPU time and reduces system efficiency. Therefore, an efficient mechanism is required to suspend the process while it waits and allow it to continue when the required event occurs.",
+      "qas": [
+        {"question": "What is continuously checking for an event called?", "answers": ["busy waiting"]},
+        {"question": "What does busy waiting waste?", "answers": ["CPU time", "CPU time and reduces system efficiency"]},
+        {"question": "Which operating system was first released in 1991?", "answers": []}
+      ]
+    },
+    {
+      "domain": "operating_systems",
+      "context": "The xv6 operating system manages processes using different states. RUNNING: The process is currently executing on the CPU. SLEEPING: The process is waiting for an event or resource. RUNNABLE: The process is ready to execute and is waiting for CPU time. The typical process-state transition associated with sleep and wakeup is RUNNING to SLEEPING to RUNNABLE to RUNNING.",
+      "qas": [
+        {"question": "Which state means the process is waiting for an event or resource?", "answers": ["SLEEPING"]},
+        {"question": "In which state is a process ready to execute but waiting for CPU time?", "answers": ["RUNNABLE"]},
+        {"question": "What does the RUNNING state mean?", "answers": ["The process is currently executing on the CPU", "currently executing on the CPU"]},
+        {"question": "How many CPUs does xv6 support?", "answers": []}
+      ]
+    },
+    {
+      "domain": "operating_systems",
+      "context": "A channel identifies the event or resource on which a process is waiting. The sleep mechanism allows the process to wait for the event, while the wakeup mechanism identifies matching sleeping processes and makes them runnable. Locks coordinate access to shared process information and help prevent race conditions and lost wakeups.",
+      "qas": [
+        {"question": "What identifies the event or resource on which a process is waiting?", "answers": ["A channel", "channel"]},
+        {"question": "What do locks help prevent?", "answers": ["race conditions and lost wakeups"]},
+        {"question": "What does the wakeup mechanism do to matching sleeping processes?", "answers": ["makes them runnable", "identifies matching sleeping processes and makes them runnable"]}
+      ]
+    },
+    {
+      "domain": "operating_systems",
+      "context": "The experiment was performed using the xv6-RISC-V operating system in Ubuntu through WSL2. QEMU was used to run the xv6 kernel in a virtual machine. The kernel was launched using the make qemu command, which started the xv6 system in the terminal. The message init: starting sh confirmed that the shell had started successfully.",
+      "qas": [
+        {"question": "Which command was used to launch the kernel?", "answers": ["make qemu", "the make qemu command"]},
+        {"question": "What was used to run the xv6 kernel in a virtual machine?", "answers": ["QEMU"]},
+        {"question": "Which message confirmed that the shell had started?", "answers": ["init: starting sh"]},
+        {"question": "How long did the kernel take to boot?", "answers": []}
+      ]
+    },
+    {
+      "domain": "operating_systems",
+      "context": "The piperead() function reads data from the pipe buffer. When the pipe is empty and the writer is still open, the reader cannot continue reading. It registers the waiting channel using sleep_prepare(&pi->nread), releases the pipe lock, and calls sleep(). The pipewrite() function writes data into the pipe buffer. After writing data, it calls wakeup(&pi->nread) to notify processes waiting for data. The implementation is present in kernel/pipe.c.",
+      "qas": [
+        {"question": "Which function reads data from the pipe buffer?", "answers": ["The piperead() function", "piperead()"]},
+        {"question": "In which file is the pipe implementation present?", "answers": ["kernel/pipe.c"]},
+        {"question": "What does pipewrite() call after writing data?", "answers": ["wakeup(&pi->nread)"]},
+        {"question": "What is the size of the pipe buffer in bytes?", "answers": []}
+      ]
+    },
+    {
+      "domain": "operating_systems",
+      "context": "A lost wakeup occurs when a process misses a wakeup notification because the condition checking and transition to waiting are not coordinated correctly. In xv6, locks help coordinate access to shared process information during sleep and wakeup operations.",
+      "qas": [
+        {"question": "When does a lost wakeup occur?", "answers": ["when a process misses a wakeup notification", "when a process misses a wakeup notification because the condition checking and transition to waiting are not coordinated correctly"]},
+        {"question": "What helps coordinate access to shared process information in xv6?", "answers": ["locks"]}
+      ]
+    },
+    {
+      "domain": "education",
+      "context": "Greenfield University offers a four-year Bachelor of Technology program in Artificial Intelligence. Admission is based on the State Engineering Entrance Test, and applicants must have scored at least 60 percent in mathematics in their final school examination. The application deadline for the 2026 intake is 15 June. The program has 120 seats, of which 30 are reserved for scholarship students.",
+      "qas": [
+        {"question": "How long is the Bachelor of Technology program?", "answers": ["four-year", "four"]},
+        {"question": "Which entrance test is used for admission?", "answers": ["the State Engineering Entrance Test", "State Engineering Entrance Test"]},
+        {"question": "What is the minimum mathematics score required?", "answers": ["at least 60 percent", "60 percent"]},
+        {"question": "When is the application deadline for the 2026 intake?", "answers": ["15 June"]},
+        {"question": "How many seats are reserved for scholarship students?", "answers": ["30"]},
+        {"question": "What is the annual tuition fee?", "answers": []}
+      ]
+    },
+    {
+      "domain": "education",
+      "context": "Photosynthesis is the process by which green plants use sunlight to make food from carbon dioxide and water. It takes place mainly in the leaves, inside organelles called chloroplasts, which contain the green pigment chlorophyll. Oxygen is released as a by-product. The overall process can be divided into the light-dependent reactions and the Calvin cycle.",
+      "qas": [
+        {"question": "What do plants use to make food during photosynthesis?", "answers": ["sunlight", "carbon dioxide and water"]},
+        {"question": "In which organelles does photosynthesis take place?", "answers": ["chloroplasts"]},
+        {"question": "What is the green pigment called?", "answers": ["chlorophyll"]},
+        {"question": "What gas is released as a by-product?", "answers": ["Oxygen"]},
+        {"question": "Who discovered photosynthesis?", "answers": []}
+      ]
+    },
+    {
+      "domain": "education",
+      "context": "The semester examination will be held from 2 December to 14 December in the Main Block. Students must carry their hall ticket and college ID card to every exam. Calculators are allowed only for engineering mathematics and physics papers. Results will be published on the student portal within six weeks of the last exam.",
+      "qas": [
+        {"question": "Where will the semester examination be held?", "answers": ["the Main Block", "Main Block"]},
+        {"question": "What must students carry to every exam?", "answers": ["their hall ticket and college ID card", "hall ticket and college ID card"]},
+        {"question": "For which papers are calculators allowed?", "answers": ["engineering mathematics and physics papers", "engineering mathematics and physics"]},
+        {"question": "Where will results be published?", "answers": ["on the student portal", "the student portal"]},
+        {"question": "What is the passing mark for each paper?", "answers": []}
+      ]
+    },
+    {
+      "domain": "education",
+      "context": "The Python programming language was created by Guido van Rossum and first released in 1991. Python emphasizes code readability and uses indentation to define code blocks. It is widely used in data science, web development, automation, and machine learning. The name Python was inspired by the British comedy group Monty Python.",
+      "qas": [
+        {"question": "Who created Python?", "answers": ["Guido van Rossum"]},
+        {"question": "When was Python first released?", "answers": ["1991"]},
+        {"question": "What does Python use to define code blocks?", "answers": ["indentation"]},
+        {"question": "What inspired the name Python?", "answers": ["the British comedy group Monty Python", "Monty Python"]},
+        {"question": "What is the latest version of Python?", "answers": []}
+      ]
+    },
+    {
+      "domain": "customer_support",
+      "context": "Orders placed on ShopEasy can be returned within 30 days of delivery for a full refund. Items must be unused and in their original packaging. Refunds are credited to the original payment method within 5 to 7 business days after the returned item is received at our warehouse. Electronics opened from their sealed packaging can only be exchanged, not refunded.",
+      "qas": [
+        {"question": "Within how many days can orders be returned?", "answers": ["30 days", "within 30 days of delivery"]},
+        {"question": "What condition must returned items be in?", "answers": ["unused and in their original packaging", "unused"]},
+        {"question": "How long does it take for a refund to be credited?", "answers": ["5 to 7 business days", "within 5 to 7 business days"]},
+        {"question": "Can opened electronics be refunded?", "answers": ["can only be exchanged, not refunded", "only be exchanged"]},
+        {"question": "Does ShopEasy deliver internationally?", "answers": []}
+      ]
+    },
+    {
+      "domain": "customer_support",
+      "context": "To reset your account password, open the ShopEasy app and tap Forgot Password on the login screen. Enter your registered email address and we will send a one-time verification code. The code is valid for 10 minutes. If you do not receive the email, check your spam folder or contact support at the in-app Help Center.",
+      "qas": [
+        {"question": "What should I tap to reset my password?", "answers": ["Forgot Password"]},
+        {"question": "How long is the verification code valid?", "answers": ["10 minutes"]},
+        {"question": "Where should I check if I do not receive the email?", "answers": ["your spam folder", "spam folder"]},
+        {"question": "What is the support phone number?", "answers": []}
+      ]
+    },
+    {
+      "domain": "customer_support",
+      "context": "Standard delivery takes 3 to 5 business days and is free for orders above 499 rupees. Express delivery is available in major cities for an additional charge of 99 rupees and arrives the next business day. Customers can track their shipment from the Orders page using the tracking number sent by SMS.",
+      "qas": [
+        {"question": "How long does standard delivery take?", "answers": ["3 to 5 business days"]},
+        {"question": "Above what order value is standard delivery free?", "answers": ["499 rupees", "above 499 rupees"]},
+        {"question": "How much does express delivery cost?", "answers": ["99 rupees", "an additional charge of 99 rupees"]},
+        {"question": "Where can customers track their shipment?", "answers": ["from the Orders page", "the Orders page", "Orders page"]},
+        {"question": "Which courier company delivers the orders?", "answers": []}
+      ]
+    },
+    {
+      "domain": "customer_support",
+      "context": "The NovaBand fitness tracker has a battery life of up to 10 days on a single charge and fully charges in about 2 hours using the magnetic USB cable. It is water resistant up to 50 metres, so it can be worn while swimming. The device comes with a one-year manufacturer warranty that covers hardware defects but not accidental damage.",
+      "qas": [
+        {"question": "What is the battery life of the NovaBand?", "answers": ["up to 10 days", "10 days"]},
+        {"question": "How long does the NovaBand take to fully charge?", "answers": ["about 2 hours", "2 hours"]},
+        {"question": "Up to what depth is the NovaBand water resistant?", "answers": ["50 metres", "up to 50 metres"]},
+        {"question": "What does the warranty not cover?", "answers": ["accidental damage"]},
+        {"question": "What is the price of the NovaBand?", "answers": []}
+      ]
+    }
+  ]
+}

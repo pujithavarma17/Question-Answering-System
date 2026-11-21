@@ -1,0 +1,83 @@
+OPERATING SYSTEMS - CASE STUDY 10
+SLEEP AND WAKEUP MECHANISM IN xv6
+Subject Code: 22CSC15N
+
+PROBLEM STATEMENT
+In an operating system, a process may be unable to continue its execution until a particular event or condition occurs. Continuously checking for the event, known as busy waiting, wastes CPU time and reduces system efficiency. Therefore, an efficient mechanism is required to suspend the process while it waits and allow it to continue when the required event occurs.
+This case study focuses on the sleep and wakeup mechanism in xv6. It examines how the sleep() function blocks a process by placing it in the SLEEPING state and how the wakeup() function makes the process RUNNABLE when the required event occurs. It also studies how xv6 uses waiting channels and locks to prevent missed wakeups and support efficient process synchronization.
+
+1. INTRODUCTION
+Operating systems use process synchronization to coordinate the execution of multiple processes. In xv6, the sleep and wakeup mechanism allows a process to wait until a particular event occurs.
+When a process cannot continue its execution, it can enter the SLEEPING state. When the required event occurs, the wakeup() function changes the waiting process to the RUNNABLE state. The scheduler can then select it for execution.
+
+1.1 Objectives
+The objectives are to understand the purpose of sleep and wakeup, to study their implementation in kernel/proc.c, to understand waiting channels and process states, to examine locking and the prevention of lost wakeups, and to analyze how pipes use these mechanisms.
+
+1.2 Motivation
+Processes often need to wait for events such as keyboard input or data arriving through a pipe. Busy waiting wastes CPU time by repeatedly checking whether a condition has changed. The sleep and wakeup mechanism allows a process to wait without continuously using the CPU. Understanding this mechanism helps explain process synchronization, scheduling, and efficient resource utilization in operating systems.
+
+2. BACKGROUND STUDY
+The xv6 operating system manages processes using different states. A process may be running, sleeping while waiting for an event, or runnable while waiting for CPU time.
+RUNNING: The process is currently executing on the CPU.
+SLEEPING: The process is waiting for an event or resource.
+RUNNABLE: The process is ready to execute and is waiting for CPU time.
+The typical process-state transition associated with sleep and wakeup is RUNNING to SLEEPING to RUNNABLE to RUNNING.
+
+3. EXISTING APPROACH AND ITS LIMITATIONS
+Busy waiting is an approach in which a process repeatedly checks whether a required condition has been satisfied. This wastes CPU time while waiting for an event and reduces system efficiency.
+The sleep and wakeup mechanism provides an alternative by allowing a process to enter the SLEEPING state until the required event occurs. The wakeup() function then makes the process RUNNABLE, allowing the scheduler to select it for execution when CPU time is available. This reduces unnecessary CPU usage compared with busy waiting.
+
+4. PROPOSED SOLUTION IN xv6
+The sleep and wakeup mechanism in xv6 coordinates waiting processes using process states, channels, and locks.
+A channel identifies the event or resource on which a process is waiting. The sleep mechanism allows the process to wait for the event, while the wakeup mechanism identifies matching sleeping processes and makes them runnable.
+Locks coordinate access to shared process information and help prevent race conditions and lost wakeups.
+
+4.1 SLEEP PREPARATION MECHANISM
+The sleep preparation mechanism records the channel on which a process intends to wait. This helps associate the process with the event it is waiting for. The sleep_prepare() function acquires the process lock, panics if the channel is zero, stores the channel in p->chan, and releases the lock. Correct synchronization is necessary to ensure that the process does not miss a wakeup notification.
+
+4.2 SLEEP MECHANISM
+The sleep() function allows a process to wait for a particular event. The process enters the SLEEPING state and releases the CPU so that other runnable processes can execute. If p->chan is not zero, sleep() sets the state to SLEEPING and calls sched(). When the required event occurs, the process can be made runnable again.
+
+4.3 WAKEUP MECHANISM
+The wakeup() function searches for processes waiting on a specified channel. It loops over the process table and, for each process whose chan matches, clears p->chan. When a matching process is found in the SLEEPING state, its state is changed to RUNNABLE. The scheduler can then select the process for execution when CPU time is available.
+
+4.4 IMPLEMENTATION ENVIRONMENT
+The experiment was performed using the xv6-RISC-V operating system in Ubuntu through WSL2. QEMU was used to run the xv6 kernel in a virtual machine. The kernel was launched using the make qemu command, which started the xv6 system in the terminal.
+After execution started, the terminal displayed the message "xv6 kernel is booting", followed by the startup messages for the hardware threads (harts). The message "init: starting sh" confirmed that the shell had started successfully.
+
+4.5 EXPERIMENTAL EXECUTION TRACE
+After the kernel booted successfully and the shell started, the cat command was entered in the terminal. During execution, the terminal displayed repeated messages such as "Process is waiting" and "Process is ready to run". These messages indicate the waiting and readiness states observed during the experiment. Finally, QEMU terminated the execution.
+
+5. PIPE IMPLEMENTATION IN xv6
+The pipe implementation in xv6 demonstrates the practical use of the sleep and wakeup mechanism for process synchronization. The implementation is present in kernel/pipe.c.
+
+5.1 PIPE READER
+The piperead() function reads data from the pipe buffer. When the pipe is empty and the writer is still open, the reader cannot continue reading. It registers the waiting channel using sleep_prepare(&pi->nread), releases the pipe lock, and calls sleep(). The process remains asleep until it becomes eligible to run again. After copying data, the reader calls wakeup(&pi->nwrite) to notify writers that buffer space is available.
+
+5.2 PIPE WRITER
+The pipewrite() function writes data into the pipe buffer. After writing data, it calls wakeup(&pi->nread) to notify processes waiting for data. If the pipe buffer is full, the writer may also sleep until space becomes available, using sleep_prepare(&pi->nwrite).
+
+5.3 WORKING OF THE MECHANISM
+The reader and writer coordinate through the pipe buffer, waiting channels, and locks. When data is unavailable, the reader sleeps instead of continuously checking the buffer. When the writer adds data, the wakeup mechanism makes the reader runnable. Similarly, readers can notify writers when buffer space becomes available.
+
+5.4 EXPERIMENTAL DEMONSTRATION
+The command cat | cat can be used to demonstrate pipe communication in xv6. The first cat reads keyboard input and writes it to the pipe, while the second cat reads from the pipe and displays the data. A debug message added to the empty-pipe waiting loop helps observe when the reader enters that code path. The observed messages were "PIPE: reader waiting for data" and "PIPE: writer added data, waking reader".
+
+6. PROCESS STATE TRANSITION AND WORKFLOW
+Running to Sleeping: A process enters the sleeping state when it waits for an event or resource.
+Sleeping to Runnable: When the required event occurs, the wakeup() function makes the process ready to execute.
+Runnable to Running: The scheduler selects the runnable process for execution.
+
+7. SYNCHRONIZATION AND LOST WAKEUPS
+A lost wakeup occurs when a process misses a wakeup notification because the condition checking and transition to waiting are not coordinated correctly.
+In xv6, locks help coordinate access to shared process information during sleep and wakeup operations. Correct synchronization ensures that a process does not miss a required wakeup notification and remain asleep unnecessarily.
+
+8. RESULT
+The debug messages show processes entering SLEEPING and later becoming RUNNABLE. Pipes demonstrate event-based blocking: empty readers wait, writers notify readers after data becomes available, and readers can notify writers after consuming data. No benchmark, timing measurement, or quantified performance improvement is claimed.
+
+9. CONCLUSION
+The study showed how the sleep and wakeup mechanism manages waiting processes, how process states change during execution, and why correct synchronization is necessary. Further study can examine their behavior under different synchronization conditions and with multiple processes.
+
+REFERENCES
+xv6-RISC-V source code: https://github.com/mit-pdos/xv6-riscv
+MIT 6.S081 Operating System Engineering, xv6 documentation: https://pdos.csail.mit.edu/6.828/2019/xv6.html
